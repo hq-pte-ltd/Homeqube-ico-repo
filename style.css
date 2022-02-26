@@ -14,9 +14,7 @@ right: 76.97%;
 top: 32%;
 bottom: 32%;
 
-font-family: Rajdhani;
-font-style: normal;
-font-weight: normal;
+font-family: 'Rajdhani', sans-serif;
 font-size: 14px;
 line-height: 18px;
 text-align: center;
@@ -117,13 +115,15 @@ color: #D7D7D8;
 }
 
 
+
+
 .button{
 background: linear-gradient(44.73deg, #7C7C7C 11.32%, #4E4E4E 92.96%);
 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 40px;
 width: 165px;
 height: 50px;
-font-family: Rajdhani;
+font-family: 'Rajdhani', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -134,6 +134,72 @@ text-transform: uppercase;
 color: #D7D7D8;
 }
 
-.title{
+.button2{
+    background: #2F2F2F;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    width: 130px;
+    height: 50px;
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
+    color: #D7D7D8;
+    }
+
+    .button3{
+        background: linear-gradient(44.73deg, #7C7C7C 11.32%, #4E4E4E 92.96%);
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 40px;
+        width: 130px;
+        height: 50px;
+        font-family: 'Rajdhani', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #D7D7D8;
+        }
+
+.intro{
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    text-transform: uppercase;
+    padding-right: 570px;
+}
+
+.intro-con{
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-right: 450px;
+}
+
+.intro-text{
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    padding-right: 410px;
+}
+
+.intro-btn{
+    padding-left: 70px;
+}
+
+.intro-btn2{
+    padding-left:220px;
 }
