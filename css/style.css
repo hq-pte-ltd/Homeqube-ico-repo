@@ -207,3 +207,31 @@ text-align: left;
     background-image: url("/img/BG\ 1.svg");
     background-repeat: no-repeat;
 }
+
+.card-title{
+
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+
+color: #5A5A5A;
+}
+
+.card-text{
+font-family: 'Rajdhani', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+
+color: #303030;
+text-align: left;
+}
+
+.container-card-1{
+    display: flex;
+    justify-content: center;
+}
