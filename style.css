@@ -175,7 +175,7 @@ color: #D7D7D8;
     font-size: 40px;
     line-height: 60px;
     text-transform: uppercase;
-    padding-right: 570px;
+    text-align: left;
 }
 
 .intro-con{
@@ -184,7 +184,7 @@ color: #D7D7D8;
     font-weight: bold;
     font-size: 40px;
     text-transform: uppercase;
-    padding-right: 450px;
+    text-align: left;
 }
 
 .intro-text{
@@ -194,12 +194,9 @@ color: #D7D7D8;
     line-height: 20px;
     letter-spacing: 0.05em;
     padding-right: 410px;
+    text-align: left;
 }
 
 .intro-btn{
-    padding-left: 70px;
-}
-
-.intro-btn2{
-    padding-left:220px;
+    padding-left: 150px;
 }
