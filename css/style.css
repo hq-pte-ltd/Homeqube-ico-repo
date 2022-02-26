@@ -117,7 +117,7 @@ color: #D7D7D8;
 
 
 
-.button{
+.button1{
 background: linear-gradient(44.73deg, #7C7C7C 11.32%, #4E4E4E 92.96%);
 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 40px;
@@ -125,13 +125,39 @@ width: 165px;
 height: 50px;
 font-family: 'Rajdhani', sans-serif;
 font-style: normal;
-font-weight: normal;
+font-weight: bold;
 font-size: 14px;
 line-height: 18px;
 text-align: center;
 letter-spacing: 0.05em;
 text-transform: uppercase;
 color: #D7D7D8;
+}
+
+.intro{
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.intro-sentence{
+font-family: 'Rajdhani', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.05em;
+text-align: left;
+}
+.intro-btn2{
+    display: flex;
+    padding-left: 20px;
+    column-gap: 20px;
+    justify-content: first baseline;
 }
 
 .button2{
@@ -142,65 +168,42 @@ color: #D7D7D8;
     height: 50px;
     font-family: 'Rajdhani', sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 14px;
     line-height: 18px;
     text-align: center;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #D7D7D8;
+    color: #D7D7D8; 
     }
 
-    .button3{
-        background: linear-gradient(44.73deg, #7C7C7C 11.32%, #4E4E4E 92.96%);
-        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 40px;
-        width: 130px;
-        height: 50px;
-        font-family: 'Rajdhani', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 18px;
-        text-align: center;
-        letter-spacing: 0.05em;
-        text-transform: uppercase;
-        color: #D7D7D8;
-        }
 
-.intro{
+
+
+.button3{
+    background: linear-gradient(44.73deg, #7C7C7C 11.32%, #4E4E4E 92.96%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    width: 130px;
+    height: 50px;
     font-family: 'Rajdhani', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
-    line-height: 60px;
-    text-transform: uppercase;
-    text-align: left;
-}
-
-.intro-con{
-    font-family: 'Rajdhani', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    text-transform: uppercase;
-    text-align: left;
-}
-
-.intro-text{
-    font-family: 'Rajdhani', sans-serif;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
     letter-spacing: 0.05em;
-    padding-right: 410px;
-    text-align: left;
+    text-transform: uppercase;
+    color: #D7D7D8;     
 }
 
-.intro-btn{
-    padding-left: 150px;
-}
+
 
 .place{
-    padding-bottom: 50px;
+    padding-bottom: 70px;
+}
+
+.container-bg{
+    background-image: url("/img/BG\ 1.svg");
+    background-repeat: no-repeat;
 }
