@@ -208,17 +208,19 @@ text-align: left;
     background-repeat: no-repeat;
 }
 
-.card-title{
+.container-bg-2{
+    background-color: #F8F8F8;
+}
 
+.card-title{
+font-family: 'Rajdhani', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
 line-height: 23px;
-/* identical to box height */
-
-
 color: #5A5A5A;
 }
+
 
 .card-text{
 font-family: 'Rajdhani', sans-serif;
@@ -231,7 +233,47 @@ color: #303030;
 text-align: left;
 }
 
-.container-card-1{
-    display: flex;
-    justify-content: center;
+.intro-text-2{
+display: flex;
+font-family: 'Rajdhani', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 36px;
+justify-content: center;
+
+color: #5A5A5A;
+}
+
+.row-btn{
+    
+}
+
+.button4{
+    outline: none;
+    border-radius: 40px;
+    height: 40px;
+    width: 40px;
+    background: linear-gradient(44.73deg, #7C7C7C 11.32%, #4E4E4E 92.96%);
+    color:#fff;
+    
+
+    position: relative;
+    bottom: 140px;
+    left: 60px;
+}
+
+.button5{
+    outline: none;
+    border-radius: 40px;
+    height: 40px;
+    width: 40px;
+    background: linear-gradient(44.73deg, #7C7C7C 11.32%, #4E4E4E 92.96%);
+    color:#fff;
+    
+
+    position: relative;
+    bottom: 179px;
+    left: 2px;
+    
 }
