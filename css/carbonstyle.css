@@ -434,6 +434,10 @@
   line-height: 23px;
   color: #5a5a5a;
 }
+.content-frame{
+  top: 15px;
+  position: relative;
+}
 .benefits-container{
   background-color: #e0e0e0;
 }
