@@ -171,8 +171,9 @@
 
 .bg-icon {
   position: relative;
-  top: 40px;
-  padding-left: 40px;
+  top: 35px;
+  left: 95px;
+  width: 700px;
 }
 
 .showcase-intro {
@@ -183,7 +184,7 @@
   line-height: 41px;
   text-transform: uppercase;
   color: #000000;
-  padding-top: 100px;
+  padding-top: 180px;
   padding-left: 20px;
 }
 
@@ -199,8 +200,9 @@
 
 .bg-icon-elipse1 {
   padding-top: 100px;
-  padding-left: 60px;
+  padding-left: 100px;
   padding-bottom: 60px;
+  width: 900px;
 }
 
 .showcase-intro-2 {
@@ -211,8 +213,8 @@
   line-height: 36px;
 
   color: #5a5a5a;
-  padding-left: 100px;
-  padding-top: 170px;
+  padding-left: 170px;
+  padding-top: 200px;
   padding-bottom: 100px;
 }
 
@@ -238,7 +240,7 @@
 .card-btn1 {
   position: relative;
   padding-top: 240px;
-  right: 5px;
+  left: 40px;
 }
 
 .card-btn-2 {
@@ -259,7 +261,7 @@
 .card-btn2 {
   position: relative;
   padding-top: 240px;
-  right: 5px;
+  left: 40px;
 }
 
 .card-btn-3 {
@@ -280,7 +282,7 @@
 .card-btn3 {
   position: relative;
   padding-top: 240px;
-  right: 5px;
+  left: 40px;
 }
 
 .card-btn-4 {
@@ -301,7 +303,7 @@
 .card-btn4 {
   position: relative;
   padding-top: 240px;
-  right: 5px;
+  left: 40px;
 }
 
 .card-btn-5 {
@@ -322,9 +324,89 @@
 .card-btn5 {
   position: relative;
   padding-top: 240px;
-  right: 5px;
+  left: 40px;
 }
 
 .cards-section {
   background-color: #e0e0e0;
+}
+.card1 {
+  position: relative;
+  left: 180px;
+}
+
+.card2 {
+  position: relative;
+  left: 180px;
+}
+
+.card3 {
+  position: relative;
+  left: 180px;
+}
+
+.card4 {
+  position: relative;
+  left: 180px;
+}
+
+.card5 {
+  position: relative;
+  left: 180px;
+}
+
+.card6 {
+  position: relative;
+  left: 180px;
+}
+
+.card7 {
+  position: relative;
+  left: 180px;
+  bottom: 200px;
+}
+
+.footbar {
+  background-color: #c4c4c4;
+}
+
+.footbar-text {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 41px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #000000;
+  position: relative;
+  top: 10px;
+}
+
+.footbar-text-lead {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+  /* identical to box height */
+  text-transform: none;
+  color: #5a5a5a;
+}
+
+.footbar-button {
+  background: linear-gradient(44.73deg, #7c7c7c 11.32%, #4e4e4e 92.96%);
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  width: 165px;
+  height: 50px;
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
+
+  color: #f2f2f2;
 }
