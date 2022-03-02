@@ -224,148 +224,59 @@
   background-color: #e0e0e0;
 }
 
-.card-btn-1 {
-  background-color: #ffffff;
-  border-radius: 40px;
-  width: 140px;
-  height: 50px;
-  font-family: "Rajdhani", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 18px;
-  text-align: center;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-
-.card-btn1 {
-  position: relative;
-  padding-top: 240px;
-  left: 40px;
-}
-
-.card-btn-2 {
-  background-color: #ffffff;
-  border-radius: 40px;
-  width: 140px;
-  height: 50px;
-  font-family: "Rajdhani", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 18px;
-  text-align: center;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-
-.card-btn2 {
-  position: relative;
-  padding-top: 240px;
-  left: 40px;
-}
-
-.card-btn-3 {
-  background-color: #ffffff;
-  border-radius: 40px;
-  width: 140px;
-  height: 50px;
-  font-family: "Rajdhani", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 18px;
-  text-align: center;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-
-.card-btn3 {
-  position: relative;
-  padding-top: 240px;
-  left: 40px;
-}
-
-.card-btn-4 {
-  background-color: #ffffff;
-  border-radius: 40px;
-  width: 140px;
-  height: 50px;
-  font-family: "Rajdhani", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 18px;
-  text-align: center;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-
-.card-btn4 {
-  position: relative;
-  padding-top: 240px;
-  left: 40px;
-}
-
-.card-btn-5 {
-  background-color: #ffffff;
-  border-radius: 40px;
-  width: 140px;
-  height: 50px;
-  font-family: "Rajdhani", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 18px;
-  text-align: center;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-
-.card-btn5 {
-  position: relative;
-  padding-top: 240px;
-  left: 40px;
-}
-
 .cards-section {
   background-color: #e0e0e0;
 }
-.card1 {
-  position: relative;
-  left: 180px;
+
+.pipe-card-buttons {
+  background-color: #ffffff;
+  border-radius: 40px;
+  width: 140px;
+  height: 50px;
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
-.card2 {
-  position: relative;
-  left: 180px;
+.pipe-card-button-class {
+  display: flex;
+  justify-content: start;
 }
 
-.card3 {
-  position: relative;
-  left: 180px;
+.card {
+  width: 1000px;
 }
 
-.card4 {
+.pipe-card {
   position: relative;
-  left: 180px;
+  padding-top: 20px;
+  left: 60px;
 }
 
-.card5 {
-  position: relative;
-  left: 180px;
+.pipe-card-header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+
+  color: #5a5a5a;
+  text-align: left;
 }
 
-.card6 {
-  position: relative;
-  left: 180px;
-}
+.pipe-card-lead {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-justify: inter-word;
+  font-size: 14px;
+  line-height: 18px;
 
-.card7 {
-  position: relative;
-  left: 180px;
-  bottom: 200px;
+  color: #000000;
 }
 
 .footbar {
