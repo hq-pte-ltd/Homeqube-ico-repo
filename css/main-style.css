@@ -1,0 +1,193 @@
+/* fix design  */
+.navbar-expand-lg {
+    background-color: #2f2f2f;
+    left: 0px;
+    top: 0px;
+  }
+  .nav-item-pipehome {
+    left: 13.55%;
+    right: 76.97%;
+    top: 32%;
+    bottom: 32%;
+  
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #d7d7d8;
+  }
+
+  .nav-item-QTrans {
+    left: 25.88%;
+    right: 64.64%;
+    top: 32%;
+    bottom: 32%;
+  
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #d7d7d8;
+  }
+  .nav-item-QToken {
+    left: 38.2%;
+    right: 52.32%;
+    top: 32%;
+    bottom: 32%;
+  
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #d7d7d8;
+  }
+  .nav-item-CarbonCred {
+    left: 50.52%;
+    right: 40%;
+    top: 32%;
+    bottom: 32%;
+  
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  
+    color: #d7d7d8;
+  }  
+  .nav-item-People {
+    left: 62.84%;
+    right: 27.68%;
+    top: 32%;
+    bottom: 50%;
+  
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  
+    color: #d7d7d8;
+  }
+  .nav-item-FAQ {
+    left: 75.17%;
+    right: 15.36%;
+    top: 32%;
+    bottom: 50%;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #d7d7d8;
+  }
+  
+  .navbar-toggler {
+    background-color: #d7d7d8;
+  }
+  .button1 {
+    background: linear-gradient(44.73deg, #7c7c7c 11.32%, #4e4e4e 92.96%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    width: 165px;
+    height: 50px;
+    font-family: "Rajdhani", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #d7d7d8;
+  }
+
+
+/* Jade's Codes  */
+footer{
+    margin-top: auto;
+  }
+  .footer-text{
+    text-align:left;
+    size: 18px;
+  }
+  .footer-logo {
+    float: left;
+    padding: 0 20px 20px 0;
+  }
+  .list{
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+  }
+  .link{
+    text-align: center;
+  }
+  .footer-button{
+      background: linear-gradient(44.73deg, #7c7c7c 11.32%, #4e4e4e 92.96%);
+      box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 40px;
+      width: 165px;
+      height: 50px;
+      font-family: "Rajdhani", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 18px;
+      text-align: center;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #d7d7d8;
+      float: left;
+  }
+/* Media  by Jade*/
+@media (max-width: 576px) {
+}
+@media (max-width: 768px) {
+  /* footer logo */
+  .footer-logo {
+    float: none;
+    padding: 0;
+  }
+
+  /* footer text */
+  .footer-text {
+    text-align: center;
+  }
+
+  /* footer links */
+  .link {
+    padding: 1rem;
+  }
+  
+}
+@media (max-width: 992px) {
+   
+  /* nav item pipehome  */
+  .nav-item-pipehome{
+    transform: translateX(-12px)
+  }
+   /* footer button */
+   .footer-button {
+    float: none;
+    width: 115px;
+    height: 35px;
+   }
+}
+@media (max-width: 1200px) {
+  
+}
