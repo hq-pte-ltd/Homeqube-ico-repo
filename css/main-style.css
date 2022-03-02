@@ -178,7 +178,7 @@ footer{
 @media (max-width: 992px) {
    
   /* nav item pipehome  */
-  .nav-item-pipe{
+  .nav-item-pipehome{
     transform: translateX(-12px)
   }
    /* footer button */
