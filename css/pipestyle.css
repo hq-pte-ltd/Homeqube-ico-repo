@@ -325,41 +325,41 @@
 }
 
 /* Jade's Codes  */
-footer{
+footer {
   margin-top: auto;
 }
-.footer-text{
-  text-align:left;
+.footer-text {
+  text-align: left;
   size: 18px;
 }
 .footer-logo {
   float: left;
   padding: 0 20px 20px 0;
 }
-.list{
+.list {
   list-style: none;
   display: inline-block;
   text-align: left;
 }
-.link{
+.link {
   text-align: center;
 }
-.footer-button{
-    background: linear-gradient(44.73deg, #7c7c7c 11.32%, #4e4e4e 92.96%);
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 40px;
-    width: 165px;
-    height: 50px;
-    font-family: "Rajdhani", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 18px;
-    text-align: center;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: #d7d7d8;
-    float: left;
+.footer-button {
+  background: linear-gradient(44.73deg, #7c7c7c 11.32%, #4e4e4e 92.96%);
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  width: 165px;
+  height: 50px;
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #d7d7d8;
+  float: left;
 }
 
 /* Media  by Jade*/
@@ -381,21 +381,18 @@ footer{
   .link {
     padding: 1rem;
   }
-  
 }
 @media (max-width: 992px) {
-   
   /* nav item pipehome  */
-  .nav-item-pipehome{
-    transform: translateX(-12px)
+  .nav-item-pipehome {
+    transform: translateX(-12px);
   }
-   /* footer button */
-   .footer-button {
+  /* footer button */
+  .footer-button {
     float: none;
     width: 115px;
     height: 35px;
-   }
+  }
 }
 @media (max-width: 1200px) {
-  
 }
