@@ -259,6 +259,7 @@
 }
 
 .pipe-card-header {
+  font-family: "Rajdhani", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
@@ -395,4 +396,22 @@ footer {
   }
 }
 @media (max-width: 1200px) {
+}
+
+.card-modal-title {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 41px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.modal-body {
+  background-color: #f8f8f8;
 }
