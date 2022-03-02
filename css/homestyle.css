@@ -1,9 +1,8 @@
-
 .showcase {
   background-color: #2f2f2f;
 }
 
-.nav-item-pipe {
+.nav-item-pipehome {
   font-family: "Rajdhani", sans-serif;
 }
 
@@ -13,7 +12,6 @@
 
 .nav-item-QToken {
   font-family: "Rajdhani", sans-serif;
-
 }
 
 .nav-item-CarbonCred {
@@ -26,9 +24,7 @@
 
 .nav-item-FAQ {
   font-family: "Rajdhani", sans-serif;
-
 }
-
 
 .intro {
   font-family: "Rajdhani", sans-serif;
@@ -156,6 +152,3 @@
   bottom: 179px;
   left: 2px;
 }
-
-
-
