@@ -108,7 +108,29 @@
   height: 80px; 
   padding-left: 150px;
 }
+.modal-title2{
+  height: 180px; 
+  padding-left: 150px;
+}
 .content-img1{
   position: relative; 
   right: 700px; padding-top: 60px;
+}
+.content-img2{
+  padding-left: 60px;
+}
+.content-img3{
+  position: relative;
+  right: 705px;
+  padding-top: 110px;
+}
+.content-img4{
+  position: relative;
+  right: 705px;
+  padding-top: 50px;
+}
+.content-img5{
+  position: relative;
+  right: 695px;
+  padding-top: 120px;
 }

@@ -104,6 +104,10 @@
   text-transform: uppercase;
   color: #d7d7d8;
 }
+.button1:hover{
+  color: #ffffff;
+}
+
 .intro {
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
@@ -215,7 +219,10 @@
   letter-spacing: 0.15px;
   text-transform: uppercase;
 
-  color: #f2f2f2;
+  color: #d7d7d8;
+}
+.footbar-button:hover{
+  color: #ffffff;
 }
 
 /* Jade's Codes  */
@@ -254,6 +261,9 @@ footer {
   text-transform: uppercase;
   color: #d7d7d8;
   float: left;
+}
+.footer-button:hover{
+  color: #ffffff;
 }
 /* Media  by Jade*/
 @media (max-width: 576px) {

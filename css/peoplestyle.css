@@ -91,7 +91,10 @@ html{
   letter-spacing: 0.15px;
   text-transform: uppercase;
 
-  color: #f2f2f2;
+  color: #d7d7d8;
+}
+.footbar-button-people:hover{
+  color: #ffffff;
 }
 .card-title{
   font-family: Rajdhani;
