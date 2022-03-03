@@ -395,18 +395,26 @@
   padding-bottom: 2em;
 }
 
-.card-img-top{
-border-top-left-radius: 15px;
-border-top-right-radius: 15px;
+.card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
-.carousel-title{
-font-family: "Rajdhani", sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 28px;
-line-height: 35.73px;
-color: #5A5A5A;
+.carousel-title {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35.73px;
+  color: #5a5a5a;
+}
+
+.slide_items {
+  margin: 10em;
+}
+
+.slider {
+  position: relative;
 }
 
 .slide_items{
@@ -431,7 +439,6 @@ position: relative;
   cursor: pointer;
   color: #fff;
 }
-
 .slider .next_arrow {
   position: absolute;
   bottom: 100px;
@@ -446,4 +453,3 @@ position: relative;
   cursor: pointer;
   color: #fff;
 }
-
