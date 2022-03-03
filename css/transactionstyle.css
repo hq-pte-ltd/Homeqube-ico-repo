@@ -3,23 +3,23 @@
 }
 
 .nav-item-QTrans {
-  font-family: Rajdhani;
+  font-family: "Rajdhani", sans-serif;
 }
 
 .nav-item-QToken {
-  font-family: Rajdhani;
+  font-family: "Rajdhani", sans-serif;
 }
 
 .nav-item-CarbonCred {
-  font-family: Rajdhani;
+  font-family: "Rajdhani", sans-serif;
 }
 
 .nav-item-People {
-  font-family: Rajdhani;
+  font-family: "Rajdhani", sans-serif;
 }
 
 .nav-item-FAQ {
-  font-family: Rajdhani;
+  font-family: "Rajdhani", sans-serif;
 }
 .bg-icon-transaction {
   position: relative;
@@ -47,7 +47,7 @@
   width: 900px;
 }
 
-.q-transactmap-div-title h2{
+.q-transactmap-div-title h2 {
   font-family: "Rajdhani", sans-serif;
   text-transform: capitalize;
   font-weight: 900;
@@ -57,5 +57,5 @@
 .rectangle {
   height: 4px;
   width: 155px;
-  background-color: #C4C4C4;
+  background-color: #c4c4c4;
 }

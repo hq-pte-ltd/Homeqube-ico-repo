@@ -25,13 +25,13 @@
 .nav-item-FAQ {
   font-family: "Rajdhani", sans-serif;
 }
-.intro{
+.intro {
   padding-left: 170px;
 }
-.intro-sentence{
+.intro-sentence {
   padding-left: 170px;
 }
-.boxes{
+.boxes {
   display: flex;
   justify-content: center;
 }
@@ -307,65 +307,63 @@
 .card-group {
   display: inline-flex;
   flex-wrap: wrap;
-  gap: 14px;
+  gap: 19px;
 }
 
-.card-group1{
-      
+.card-group1 {
   display: inline-flex;
   flex-wrap: wrap;
   gap: 12px;
   padding-bottom: 2em;
 }
 
-
-.card-img-top{
-border-top-left-radius: 15px;
-border-top-right-radius: 15px;
+.card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
-.carousel-title{
-font-family: "Rajdhani", sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 28px;
-line-height: 35.73px;
-color: #5A5A5A;
+.carousel-title {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35.73px;
+  color: #5a5a5a;
 }
 
-.slide_items{
-margin: 10em;
+.slide_items {
+  margin: 10em;
 }
 
-.slider{ 
-position: relative;
+.slider {
+  position: relative;
 }
 
-.slider .prev_arrow{
-position: absolute;
-bottom: 100px;
-left:-35%;
-width: 50px;
-height: 50px;
-background: #515151 ;
-border-radius: 50%;
-line-height: 50px;
-display: inline-block;
-text-align: center;
-cursor: pointer;
-color:#fff;
+.slider .prev_arrow {
+  position: absolute;
+  bottom: 100px;
+  left: -35%;
+  width: 50px;
+  height: 50px;
+  background: #515151;
+  border-radius: 50%;
+  line-height: 50px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
 }
-.slider .next_arrow{
-position: absolute;
-bottom: 100px;
-left:-25%;
-width: 50px;
-height: 50px;
-background: #515151;
-border-radius: 50%;
-line-height: 50px;
-display: inline-block;
-text-align: center;
-cursor: pointer;
-color:#fff;
+.slider .next_arrow {
+  position: absolute;
+  bottom: 100px;
+  left: -25%;
+  width: 50px;
+  height: 50px;
+  background: #515151;
+  border-radius: 50%;
+  line-height: 50px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
 }

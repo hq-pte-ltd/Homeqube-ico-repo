@@ -29,11 +29,9 @@
   justify-content: first baseline;
 }
 
-
 .navbar-nav > .nav-item > a > .nav-item-pipehome {
   font-weight: bold;
   color: #fff;
-  font-weight: bold;
 }
 
 .bg-icon-elipse1 {
@@ -42,8 +40,6 @@
   padding-bottom: 60px;
   width: 800px;
 }
-
-
 
 .container-bg {
   background-color: #e0e0e0;
@@ -104,32 +100,33 @@
 
   color: #000000;
 }
-.modal-title{
-  height: 80px; 
+.modal-title {
+  height: 80px;
   padding-left: 150px;
 }
-.modal-title2{
-  height: 180px; 
+.modal-title2 {
+  height: 180px;
   padding-left: 150px;
 }
-.content-img1{
-  position: relative; 
-  right: 700px; padding-top: 60px;
+.content-img1 {
+  position: relative;
+  right: 700px;
+  padding-top: 60px;
 }
-.content-img2{
+.content-img2 {
   padding-left: 60px;
 }
-.content-img3{
+.content-img3 {
   position: relative;
   right: 705px;
   padding-top: 110px;
 }
-.content-img4{
+.content-img4 {
   position: relative;
   right: 705px;
   padding-top: 50px;
 }
-.content-img5{
+.content-img5 {
   position: relative;
   right: 695px;
   padding-top: 120px;
