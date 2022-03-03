@@ -416,6 +416,7 @@
 .slider {
   position: relative;
 }
+
 .slider .prev_arrow {
   position: absolute;
   bottom: 100px;
