@@ -152,3 +152,169 @@
   bottom: 179px;
   left: 2px;
 }
+
+.eco-1-title {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 41px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.content-img {
+  display: grid;
+  align-items: center;
+  margin-left: 110px;
+}
+
+.intro-eco {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 150px;
+  color: #5a5a5a;
+}
+
+.span-eco {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+  color: #5a5a5a;
+}
+
+.intro-eco-sentence {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+  padding-left: 150px;
+  color: #000000;
+}
+
+.intro-eco-button {
+  display: flex;
+  padding-left: 148px;
+  column-gap: 10px;
+  justify-content: first baseline;
+}
+
+.eco-button {
+  background: #fff;
+  border-radius: 40px;
+  width: 130px;
+  height: 50px;
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+}
+.content-eco1-bg {
+  background-color: #fff;
+}
+
+.content-eco-bg {
+  background: linear-gradient(180deg, #f8f8f8 0%, rgba(241, 241, 241, 0) 100%);
+}
+
+.intro-eco-2 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 150px;
+  color: #5a5a5a;
+}
+
+.span-eco-2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+  color: #5a5a5a;
+}
+
+.intro-eco-card3 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #5a5a5a;
+}
+
+.intro-eco-card3-text {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #5a5a5a;
+}
+
+.eco-crd-1 {
+  width: 320px;
+  position: relative;
+  left: 150px;
+  border-radius: 10px;
+}
+
+.eco-horizontal-card {
+  border-radius: 10px;
+}
+
+.eco-horizontal-card1 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+
+  text-align: left;
+
+  color: #5a5a5a;
+}
+
+.eco-horizontal-card-txt-1 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+
+  color: #5a5a5a;
+}
+
+.card-group {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
