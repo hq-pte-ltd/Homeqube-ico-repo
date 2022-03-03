@@ -22,25 +22,6 @@
   font-family: "Rajdhani", sans-serif;
 }
 
-.intro {
-  font-family: "Rajdhani", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 40px;
-  text-transform: uppercase;
-  text-align: left;
-}
-
-.intro-sentence {
-  font-family: "Rajdhani", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
-  letter-spacing: 0.05em;
-  text-align: left;
-}
 .intro-btn2 {
   display: flex;
   padding-left: 20px;
@@ -48,51 +29,11 @@
   justify-content: first baseline;
 }
 
-.intro-text-2 {
-  display: flex;
-  font-family: "Rajdhani", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 28px;
-  line-height: 36px;
-  justify-content: center;
-
-  color: #5a5a5a;
-}
 
 .navbar-nav > .nav-item > a > .nav-item-pipehome {
   font-weight: bold;
   color: #fff;
   font-weight: bold;
-}
-
-.bg-icon {
-  position: relative;
-  top: 35px;
-  left: 95px;
-  width: 600px;
-}
-
-.showcase-intro {
-  font-family: "Rajdhani", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 41px;
-  text-transform: uppercase;
-  color: #000000;
-  padding-top: 180px;
-  padding-left: 20px;
-}
-
-.showcase-intro-lead {
-  font-family: "Rajdhani", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 23px;
-  color: #5a5a5a;
-  padding-left: 20px;
 }
 
 .bg-icon-elipse1 {
@@ -102,18 +43,7 @@
   width: 800px;
 }
 
-.showcase-intro-2 {
-  font-family: "Rajdhani", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 28px;
-  line-height: 36px;
 
-  color: #5a5a5a;
-  padding-left: 170px;
-  padding-top: 200px;
-  padding-bottom: 100px;
-}
 
 .container-bg {
   background-color: #e0e0e0;
@@ -174,139 +104,33 @@
 
   color: #000000;
 }
-
-.footbar {
-  background-color: #c4c4c4;
+.modal-title{
+  height: 80px; 
+  padding-left: 150px;
 }
-
-.footbar-text {
-  font-family: "Rajdhani", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 41px;
-  /* identical to box height */
-  text-transform: uppercase;
-  color: #000000;
+.modal-title2{
+  height: 180px; 
+  padding-left: 150px;
+}
+.content-img1{
+  position: relative; 
+  right: 700px; padding-top: 60px;
+}
+.content-img2{
+  padding-left: 60px;
+}
+.content-img3{
   position: relative;
-  top: 10px;
+  right: 705px;
+  padding-top: 110px;
 }
-
-.footbar-text-lead {
-  font-family: "Rajdhani", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 36px;
-  /* identical to box height */
-  text-transform: none;
-  color: #5a5a5a;
+.content-img4{
+  position: relative;
+  right: 705px;
+  padding-top: 50px;
 }
-
-.footbar-button {
-  background: linear-gradient(44.73deg, #7c7c7c 11.32%, #4e4e4e 92.96%);
-  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 40px;
-  width: 165px;
-  height: 50px;
-  font-family: "Rajdhani", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.15px;
-  text-transform: uppercase;
-
-  color: #f2f2f2;
-}
-
-/* Jade's Codes  */
-footer {
-  margin-top: auto;
-}
-.footer-text {
-  text-align: left;
-  size: 18px;
-}
-.footer-logo {
-  float: left;
-  padding: 0 20px 20px 0;
-}
-.list {
-  list-style: none;
-  display: inline-block;
-  text-align: left;
-}
-.link {
-  text-align: center;
-}
-.footer-button {
-  background: linear-gradient(44.73deg, #7c7c7c 11.32%, #4e4e4e 92.96%);
-  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 40px;
-  width: 165px;
-  height: 50px;
-  font-family: "Rajdhani", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 18px;
-  text-align: center;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: #d7d7d8;
-  float: left;
-}
-
-/* Media  by Jade*/
-@media (max-width: 576px) {
-}
-@media (max-width: 768px) {
-  /* footer logo */
-  .footer-logo {
-    float: none;
-    padding: 0;
-  }
-
-  /* footer text */
-  .footer-text {
-    text-align: center;
-  }
-
-  /* footer links */
-  .link {
-    padding: 1rem;
-  }
-}
-@media (max-width: 992px) {
-  /* nav item pipehome  */
-  .nav-item-pipehome {
-    transform: translateX(-12px);
-  }
-  /* footer button */
-  .footer-button {
-    float: none;
-    width: 115px;
-    height: 35px;
-  }
-}
-@media (max-width: 1200px) {
-}
-
-.card-modal-title {
-  font-family: "Rajdhani", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 41px;
-  /* identical to box height */
-
-  text-align: center;
-  text-transform: uppercase;
-
-  color: #000000;
-}
-
-.modal-body {
-  background-color: #f8f8f8;
+.content-img5{
+  position: relative;
+  right: 695px;
+  padding-top: 120px;
 }
