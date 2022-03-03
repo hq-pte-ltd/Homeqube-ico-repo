@@ -398,7 +398,6 @@
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
-
 .carousel-title {
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
@@ -415,7 +414,6 @@
 .slider {
   position: relative;
 }
-
 .slider .prev_arrow {
   position: absolute;
   bottom: 100px;
