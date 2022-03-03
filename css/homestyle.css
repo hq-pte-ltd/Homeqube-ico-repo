@@ -373,7 +373,6 @@
   width: 249.14px;
   height: 263.72px;
   z-index: 10;
-  bottom: -109%;
 }
 .box-animation-2{
   position: absolute;
@@ -381,8 +380,7 @@
   width: 59.8px;
   height: 63.37px;
   z-index: 10;
-  bottom: -89%;
-  left: 20%;
+  margin-left: 317px;
   animation: box-animation-2 5s infinite;
 }
 @keyframes box-animation-2 {
@@ -395,8 +393,8 @@
   width: 99.9px;
   height: 105.69px;
   z-index: 10;
-  left: 18%;
-  bottom: -107%;
+  margin-top: 130px;
+  margin-left: 290px;
   animation: box-animation-3 5s infinite;
 }
 @keyframes box-animation-3 {
@@ -418,8 +416,8 @@
   width: 59.8px;
   height: 63.37px;
   z-index: 10;
-  left: 75.8%;
-  bottom: -151%;
+  margin-top: -40px;
+  margin-left: 1070px;
   animation: box-animation-2 5s infinite;
 }
 
@@ -434,8 +432,8 @@
   width: 99.9px;
   height: 105.69px;
   z-index: 10;
-  left: 74.3%;
-  bottom: -166.3%;
+  margin-top: 50px;
+  margin-left: 1045px;
   animation: box-animation-2 5s infinite;
 }
 
