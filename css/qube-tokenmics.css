@@ -1,4 +1,4 @@
-.nav-item-pipehome {
+.nav-item-pipehome  {
   font-family: "Rajdhani", sans-serif;
 }
 
@@ -27,24 +27,11 @@
   color: #fff;
 }
 
-.bg-icon {
+.bg-icon-tokenomics {
   position: relative;
   left: 100px;
   width: 600px;
 }
-
-.showcase-intro {
-  font-family: "Rajdhani", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 41px;
-  text-transform: uppercase;
-  color: #000000;
-  padding-top: 180px;
-  padding-left: 20px;
-}
-
 .showcase-intro-lead {
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
@@ -55,7 +42,7 @@
   padding-left: 20px;
 }
 
-.intro {
+.intro-content {
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -65,7 +52,7 @@
   color: #5a5a5a;
 }
 
-.intro-sentence {
+.intro-sentence-tokenomics {
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
   font-weight: normal;

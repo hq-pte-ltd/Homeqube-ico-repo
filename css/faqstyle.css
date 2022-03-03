@@ -22,42 +22,11 @@
     font-family: Rajdhani;
   }
   
-  .intro {
-    font-family: "Rajdhani", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 40px;
-    text-transform: uppercase;
-    text-align: left;
-  }
-  
-  .intro-sentence {
-    font-family: "Rajdhani", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.05em;
-    text-align: left;
-  }
   .intro-btn2 {
     display: flex;
     padding-left: 20px;
     column-gap: 20px;
     justify-content: first baseline;
-  }
-  
-  .intro-text-2 {
-    display: flex;
-    font-family: "Rajdhani", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 28px;
-    line-height: 36px;
-    justify-content: center;
-  
-    color: #5a5a5a;
   }
   
   .navbar-nav > .nav-item > a > .nav-item-FAQ {
