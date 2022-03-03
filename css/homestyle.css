@@ -318,3 +318,63 @@
   flex-wrap: wrap;
   gap: 14px;
 }
+
+.card-group1{
+      
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding-bottom: 2em;
+}
+
+
+.card-img-top{
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+}
+
+.carousel-title{
+font-family: "Rajdhani", sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 35.73px;
+color: #5A5A5A;
+}
+
+.slide_items{
+margin: 10em;
+}
+
+.slider{ 
+position: relative;
+}
+
+.slider .prev_arrow{
+position: absolute;
+bottom: 100px;
+left:-35%;
+width: 50px;
+height: 50px;
+background: #515151 ;
+border-radius: 50%;
+line-height: 50px;
+display: inline-block;
+text-align: center;
+cursor: pointer;
+color:#fff;
+}
+.slider .next_arrow{
+position: absolute;
+bottom: 100px;
+left:-25%;
+width: 50px;
+height: 50px;
+background: #515151;
+border-radius: 50%;
+line-height: 50px;
+display: inline-block;
+text-align: center;
+cursor: pointer;
+color:#fff;
+}
