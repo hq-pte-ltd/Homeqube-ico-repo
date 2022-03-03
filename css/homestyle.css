@@ -355,6 +355,7 @@ position: relative;
   cursor: pointer;
   color: #fff;
 }
+
 .slider .next_arrow {
   position: absolute;
   bottom: 100px;
@@ -414,6 +415,7 @@ position: relative;
   z-index: 10;
   left: 67%;
 }
+
 .right-box-animation-2{
   position: absolute;
   float: right;
@@ -424,10 +426,12 @@ position: relative;
   bottom: -151%;
   animation: box-animation-2 5s infinite;
 }
+
 @keyframes right-box-animation-2 {
   from { transform: rotate(-0deg);}
   to { transform:  rotate(360deg);}
 }
+
 .right-box-animation-3{
   position: absolute;
   float: right;
@@ -438,6 +442,7 @@ position: relative;
   bottom: -166.3%;
   animation: box-animation-2 5s infinite;
 }
+
 @keyframes right-box-animation-3 {
   from { transform: rotate(-0deg);}
   to { transform:  rotate(360deg);}
