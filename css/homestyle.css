@@ -152,3 +152,85 @@
   bottom: 179px;
   left: 2px;
 }
+
+
+.card-title{
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #5A5A5A;
+  }
+  
+  .card-text{
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  
+  color: #303030;
+  }
+  
+  
+  
+  .card-group{
+      
+          display: inline-flex;
+          flex-wrap: wrap;
+          gap: 12px;
+          padding-bottom: 2em;
+  }
+  
+  
+  .card-img-top{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .carousel-title{
+    font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35.73px;
+  color: #5A5A5A;
+  }
+
+  .slide_items{
+    margin: 10em;
+  }
+
+  .slider{ 
+    position: relative;
+  }
+
+  .slider .prev_arrow{
+    position: absolute;
+    bottom: 100px;
+    left:-35%;
+    width: 50px;
+    height: 50px;
+    background: #515151 ;
+    border-radius: 50%;
+    line-height: 50px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    color:#fff;
+  }
+  .slider .next_arrow{
+    position: absolute;
+    bottom: 100px;
+    left:-25%;
+    width: 50px;
+    height: 50px;
+    background: #515151;
+    border-radius: 50%;
+    line-height: 50px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    color:#fff;
+  }
