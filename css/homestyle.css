@@ -417,14 +417,6 @@
   position: relative;
 }
 
-.slide_items{
-margin: 10em;
-}
-
-.slider { 
-position: relative;
-}
-
 .slider .prev_arrow {
   position: absolute;
   bottom: 100px;
