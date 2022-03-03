@@ -1,0 +1,32 @@
+.card-title{
+font-family: Rajdhani;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 23px;
+color: #5A5A5A;
+}
+
+.card-text{
+font-family: Rajdhani;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+
+color: #303030;
+}
+
+
+
+.card-group{
+    
+        display: inline-flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        padding-bottom: 2em;
+}
+
+.rectangle-wrap-1{
+    background-image: url("img/jon-tyson-FlHdnPO6dlw-unsplash 1 (1).svg");
+}
