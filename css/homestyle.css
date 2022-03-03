@@ -25,6 +25,16 @@
 .nav-item-FAQ {
   font-family: "Rajdhani", sans-serif;
 }
+.intro{
+  padding-left: 170px;
+}
+.intro-sentence{
+  padding-left: 170px;
+}
+.boxes{
+  display: flex;
+  justify-content: center;
+}
 
 .intro-btn2 {
   display: flex;

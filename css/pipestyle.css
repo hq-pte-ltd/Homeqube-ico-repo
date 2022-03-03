@@ -104,3 +104,11 @@
 
   color: #000000;
 }
+.modal-title{
+  height: 80px; 
+  padding-left: 150px;
+}
+.content-img1{
+  position: relative; 
+  right: 700px; padding-top: 60px;
+}

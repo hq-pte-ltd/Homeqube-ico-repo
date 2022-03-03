@@ -119,3 +119,7 @@ html{
   font-weight: 700;
   font-size: 32px;
 }
+.people-boxes{
+  max-width: 515px;
+  height: 160px;
+}
