@@ -284,3 +284,37 @@
   left: 150px;
   border-radius: 10px;
 }
+
+.eco-horizontal-card {
+  border-radius: 10px;
+}
+
+.eco-horizontal-card1 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+
+  text-align: left;
+
+  color: #5a5a5a;
+}
+
+.eco-horizontal-card-txt-1 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+
+  color: #5a5a5a;
+}
+
+.card-group {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
