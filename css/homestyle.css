@@ -368,3 +368,79 @@
   cursor: pointer;
   color: #fff;
 }
+.box-animation-1{
+  position: absolute;
+  float: left;
+  width: 249.14px;
+  height: 263.72px;
+  z-index: 10;
+  bottom: -109%;
+}
+.box-animation-2{
+  position: absolute;
+  float: left;
+  width: 59.8px;
+  height: 63.37px;
+  z-index: 10;
+  bottom: -89%;
+  left: 20%;
+  animation: box-animation-2 5s infinite;
+}
+@keyframes box-animation-2 {
+  from { transform: rotate(-0deg);}
+  to { transform:  rotate(360deg);}
+}
+.box-animation-3{
+  position: absolute;
+  float: left;
+  width: 99.9px;
+  height: 105.69px;
+  z-index: 10;
+  left: 18%;
+  bottom: -107%;
+  animation: box-animation-3 5s infinite;
+}
+@keyframes box-animation-3 {
+  from { transform: rotate(-0deg);}
+  to { transform:  rotate(360deg);}
+}
+.right-box-animation-1{
+  position: absolute;
+  float: right;
+  width: 135.03px;
+  height: 143.1px;
+  z-index: 10;
+  left: 67%;
+}
+
+.right-box-animation-2{
+  position: absolute;
+  float: right;
+  width: 59.8px;
+  height: 63.37px;
+  z-index: 10;
+  left: 75.8%;
+  bottom: -151%;
+  animation: box-animation-2 5s infinite;
+}
+
+@keyframes right-box-animation-2 {
+  from { transform: rotate(-0deg);}
+  to { transform:  rotate(360deg);}
+}
+
+.right-box-animation-3{
+  position: absolute;
+  float: right;
+  width: 99.9px;
+  height: 105.69px;
+  z-index: 10;
+  left: 74.3%;
+  bottom: -166.3%;
+  animation: box-animation-2 5s infinite;
+}
+
+@keyframes right-box-animation-3 {
+  from { transform: rotate(-0deg);}
+  to { transform:  rotate(360deg);}
+}
