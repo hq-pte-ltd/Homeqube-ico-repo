@@ -441,3 +441,129 @@
   from { transform: rotate(-0deg);}
   to { transform:  rotate(360deg);}
 }
+.ai-title{
+  font-family: "Rajdhani", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.ai-para{
+  font-family: "Rajdhani", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+text-align: left;
+ margin-top: 4rem;
+ margin-bottom: 2rem;
+}
+
+.rectangle{
+  height: 4px;
+  width: 155px;
+  background-color: #c4c4c4;
+}
+
+
+/* .roadmap-table{
+  display: grid;
+  grid-template-areas: 
+  "roadmap-header1 roadmap-header2 roadmap-header3 roadmap-header4 roadmap-header5"
+  "shapes1 shapes2 shapes3 shapes4 shapes5"
+  "roadmap-list1 roadmap-list2 roadmap-list3 roadmap-list4 roadmap-list5"
+  "roadmap-list1 roadmap-list2 roadmap-list3 roadmap-list4 roadmap-list5"
+  "roadmap-list1 roadmap-list2 roadmap-list3 roadmap-list4 roadmap-list5"
+  ;
+  
+}
+
+.roadmap-header1{
+  grid-area: roadmap-header1;
+}
+.roadmap-header2{
+  grid-area: roadmap-header2;
+}
+.roadmap-header3{
+  grid-area: roadmap-header3;
+}
+.roadmap-header4{
+  grid-area: roadmap-header4;
+}
+.roadmap-header5{
+  grid-area: roadmap-header5;
+}
+.shapes1{
+  grid-area: shapes1;
+}
+.shapes2{
+  grid-area: shapes2;
+}
+.shapes3{
+  grid-area: shapes3;
+}
+.shapes4{
+  grid-area: shapes4;
+}
+.shapes5{
+  grid-area: shapes5;
+}
+.roadmap-list1{
+  grid-area: roadmap-list1;
+}
+
+.roadmap-list2{
+  grid-area: roadmap-list2;
+}
+.roadmap-list3{
+  grid-area: roadmap-list3;
+}
+.roadmap-list4{
+  grid-area: roadmap-list4;
+}
+.roadmap-list5{
+  grid-area: roadmap-list5;
+} */
+
+.shapes1{
+  position: relative;
+}
+.roadmap-table div{
+  margin-top: 3em;
+  margin-bottom: 3em;
+  text-align: start;
+  flex-basis: 100%
+}
+.roadmap-table i{
+  font-size: 2em;
+}
+.roadmap-header-h3{
+  font-family: "Rajdhani", sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+text-align: start;
+}
+
+.list-group{
+  font-family: Rajdhani;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.15px;
+color: #5A5A5A;
+}
+.list-active-group ul li{
+  color: #2f2f2f;
+  font-weight: 600;
+}
+.rectangle-active{
+  height: 3px;
+  width: 140px;
+  background-color: #2f2f2f;
+  position: absolute;
+  top:-32px;
+  left:25%;
+}
