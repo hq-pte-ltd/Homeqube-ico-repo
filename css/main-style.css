@@ -652,7 +652,7 @@ footer {
   width: 135.03px;
   height: 143.1px;
   z-index: 10;
-  left: 67%;
+  right: 26%;
 }
 .right-box-animation-2 {
   position: absolute;
@@ -660,8 +660,8 @@ footer {
   width: 59.8px;
   height: 63.37px;
   z-index: 10;
+  right: 20.5%;
   margin-top: -40px;
-  margin-left: 1070px;
   animation: box-animation-2 5s infinite;
 }
 @keyframes right-box-animation-2 {
@@ -679,7 +679,7 @@ footer {
   height: 105.69px;
   z-index: 10;
   margin-top: 50px;
-  margin-left: 1045px;
+  right: 20%;
   animation: box-animation-2 5s infinite;
 }
 
