@@ -90,9 +90,9 @@
 .navbar-toggler {
   background-color: #d7d7d8;
 }
-.logo{
+.logo {
   width: 100px;
-  height: 100px
+  height: 100px;
 }
 .button1 {
   background: linear-gradient(44.73deg, #7c7c7c 11.32%, #4e4e4e 92.96%);
@@ -110,7 +110,7 @@
   text-transform: uppercase;
   color: #d7d7d8;
 }
-.button1:hover{
+.button1:hover {
   color: #ffffff;
 }
 
@@ -122,7 +122,6 @@
   line-height: 40px;
   text-transform: uppercase;
   text-align: left;
-  
 }
 .intro-sentence {
   font-family: "Rajdhani", sans-serif;
@@ -227,7 +226,7 @@
 
   color: #d7d7d8;
 }
-.footbar-button:hover{
+.footbar-button:hover {
   color: #ffffff;
 }
 
@@ -268,7 +267,7 @@ footer {
   color: #d7d7d8;
   float: left;
 }
-.footer-button:hover{
+.footer-button:hover {
   color: #ffffff;
 }
 /* home style  */
@@ -795,6 +794,12 @@ footer {
   background-color: #c4c4c4;
 }
 
+.text2 {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+}
+
 /* pipeline style */
 .pipeline-bg-icon-elipse1 {
   padding-top: 100px;
@@ -855,6 +860,16 @@ footer {
 .modal-title {
   height: 80px;
   padding-left: 150px;
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 41px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
 }
 .modal-title2 {
   height: 180px;
@@ -882,6 +897,208 @@ footer {
   position: relative;
   right: 695px;
   padding-top: 120px;
+}
+
+.text {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  padding-left: 169px;
+  color: #000000;
+}
+
+.img1 {
+  display: flex;
+  justify-content: start;
+  padding-left: 169px;
+}
+
+.text1,
+.card2-list {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  padding-left: 169px;
+}
+
+.img2 {
+  display: flex;
+  justify-content: start;
+  padding-left: 155px;
+}
+
+.square-2 {
+  position: relative;
+  top: -20px;
+}
+
+.img3 {
+  display: flex;
+  justify-content: center;
+}
+
+.square-3 {
+  position: relative;
+  top: 10px;
+  right: 20px;
+}
+
+.trad-cons {
+  text-align: left;
+}
+.home-cons {
+  text-align: left;
+}
+
+.card-modal-4-type-row-1 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+  align-items: center;
+
+  color: #5a5a5a;
+}
+
+.trad-cons-content-2 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  text-align: left;
+  color: #5a5a5a;
+}
+
+.trad-cons-content-3 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  text-align: left;
+  color: #5a5a5a;
+}
+
+.trad-cons-content-4 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  text-align: left;
+  color: #5a5a5a;
+}
+
+.trad-cons-content-5 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  text-align: left;
+  color: #5a5a5a;
+}
+
+.trad-cons-content-6 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  text-align: left;
+  color: #5a5a5a;
+}
+
+.trad-cons-content-7 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  text-align: left;
+  color: #5a5a5a;
+}
+
+.home-cons-content-2-2 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  text-align: left;
+}
+
+.home-cons-content-3-3 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  text-align: left;
+}
+
+.home-cons-content-4-4 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  text-align: left;
+}
+
+.home-cons-content-5-5 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  text-align: left;
+}
+
+.home-cons-content-6-6 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  text-align: left;
+}
+
+.home-cons-content-7-7 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  text-align: left;
+}
+
+.container-tables {
+  padding-left: 150px;
+}
+
+.square-4 {
+  position: relative;
+  top: -20px;
+  right: 30px;
 }
 
 /* transaction style  */
@@ -1279,7 +1496,7 @@ footer {
   align-items: center;
   text-align: right;
 }
-.q-tokenomics-th-position{
+.q-tokenomics-th-position {
   text-align: right;
 }
 
@@ -1349,8 +1566,8 @@ html {
   background-color: #e0e0e0;
 }
 
-.carbon-content-header{
-  text-align:left;
+.carbon-content-header {
+  text-align: left;
   size: 32px;
   margin-top: 20px;
   font-family: "Rajdhani", sans-serif;
@@ -1361,51 +1578,51 @@ html {
   text-transform: uppercase;
   color: #000000;
 }
-.carbon-content-message{
-text-align:left;
-font-family: "Rajdhani", sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 23px;
-color: #5a5a5a;
+.carbon-content-message {
+  text-align: left;
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #5a5a5a;
 }
-.carbon-content-frame{
-top: 15px;
-position: relative;
+.carbon-content-frame {
+  top: 15px;
+  position: relative;
 }
-.carbon-benefits-container{
-background-color: #e0e0e0;
+.carbon-benefits-container {
+  background-color: #e0e0e0;
 }
-.carbon-benefits-content{
-font-family: "Rajdhani", sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 28px;
-line-height: 36px;
+.carbon-benefits-content {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
 
-color: #5a5a5a;
-padding-left: 180px;
-padding-top: 100px;
-padding-bottom: 200px;
+  color: #5a5a5a;
+  padding-left: 180px;
+  padding-top: 100px;
+  padding-bottom: 200px;
 }
 
 /* FAQ Styles */
 .faq-rectangle {
   height: 4px;
   width: 155px;
-  background-color: #C4C4C4;
+  background-color: #c4c4c4;
 }
-.faq-title{
+.faq-title {
   font-family: Rajdhani;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 32px;
 }
-.faqs-container{
-  background-color: #F8F8F8;
+.faqs-container {
+  background-color: #f8f8f8;
 }
-.faqs-header{
+.faqs-header {
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -1414,7 +1631,7 @@ padding-bottom: 200px;
 
   color: #5a5a5a;
 }
-.faqs-text{
+.faqs-text {
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -1424,8 +1641,8 @@ padding-bottom: 200px;
   color: #5a5a5a;
   padding-bottom: 25px;
 }
-.faqs-content{
-    width: 1000px;
+.faqs-content {
+  width: 1000px;
 }
 
 /* Media  by Jade*/
