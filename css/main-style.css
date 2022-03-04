@@ -4,6 +4,7 @@
   left: 0px;
   top: 0px;
 }
+
 .nav-item-pipehome {
   font-size: 14px;
   line-height: 18px;
@@ -25,6 +26,7 @@
   color: #d7d7d8;
   font-family: "Rajdhani", sans-serif;
 }
+
 .nav-item-QToken {
   font-style: normal;
   font-weight: normal;
@@ -36,6 +38,7 @@
   color: #d7d7d8;
   font-family: "Rajdhani", sans-serif;
 }
+
 .nav-item-CarbonCred {
   left: 50.52%;
   right: 40%;
@@ -53,6 +56,7 @@
   color: #d7d7d8;
   font-family: "Rajdhani", sans-serif;
 }
+
 .nav-item-People {
   left: 62.84%;
   right: 27.68%;
@@ -70,6 +74,7 @@
   color: #d7d7d8;
   font-family: "Rajdhani", sans-serif;
 }
+
 .nav-item-FAQ {
   left: 75.17%;
   right: 15.36%;
@@ -90,10 +95,12 @@
 .navbar-toggler {
   background-color: #d7d7d8;
 }
+
 .logo {
   width: 100px;
   height: 100px;
 }
+
 .button1 {
   background: linear-gradient(44.73deg, #7c7c7c 11.32%, #4e4e4e 92.96%);
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -110,6 +117,7 @@
   text-transform: uppercase;
   color: #d7d7d8;
 }
+
 .button1:hover {
   color: #ffffff;
 }
@@ -123,6 +131,7 @@
   text-transform: uppercase;
   text-align: left;
 }
+
 .intro-sentence {
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
@@ -132,6 +141,7 @@
   letter-spacing: 0.05em;
   text-align: left;
 }
+
 .intro-text-2 {
   display: flex;
   font-family: "Rajdhani", sans-serif;
@@ -143,12 +153,14 @@
 
   color: #5a5a5a;
 }
+
 .bg-icon {
   position: relative;
   top: 35px;
   left: 95px;
   width: 600px;
 }
+
 .showcase-intro {
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
@@ -160,6 +172,7 @@
   padding-top: 180px;
   padding-left: 20px;
 }
+
 .showcase-intro-lead {
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
@@ -169,6 +182,7 @@
   color: #5a5a5a;
   padding-left: 20px;
 }
+
 .showcase-intro-2 {
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
@@ -226,6 +240,7 @@
 
   color: #d7d7d8;
 }
+
 .footbar-button:hover {
   color: #ffffff;
 }
@@ -234,22 +249,27 @@
 footer {
   margin-top: auto;
 }
+
 .footer-text {
   text-align: left;
   size: 18px;
 }
+
 .footer-logo {
   float: left;
   padding: 0 20px 20px 0;
 }
+
 .list {
   list-style: none;
   display: inline-block;
   text-align: left;
 }
+
 .link {
   text-align: center;
 }
+
 .footer-button {
   background: linear-gradient(44.73deg, #7c7c7c 11.32%, #4e4e4e 92.96%);
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -267,19 +287,24 @@ footer {
   color: #d7d7d8;
   float: left;
 }
+
 .footer-button:hover {
   color: #ffffff;
 }
+
 /* home style  */
 .showcase {
   background-color: #2f2f2f;
 }
+
 .intro {
   padding-left: 170px;
 }
+
 .intro-sentence {
   padding-left: 170px;
 }
+
 .boxes {
   display: flex;
   justify-content: center;
@@ -454,6 +479,7 @@ footer {
   text-transform: uppercase;
   color: #000000;
 }
+
 .content-eco1-bg {
   background-color: #fff;
 }
@@ -590,6 +616,7 @@ footer {
   cursor: pointer;
   color: #fff;
 }
+
 .slider .next_arrow {
   position: absolute;
   bottom: 100px;
@@ -604,6 +631,7 @@ footer {
   cursor: pointer;
   color: #fff;
 }
+
 .box-animation-1 {
   position: absolute;
   float: left;
@@ -611,6 +639,7 @@ footer {
   height: 263.72px;
   z-index: 10;
 }
+
 .box-animation-2 {
   position: absolute;
   float: left;
@@ -620,14 +649,17 @@ footer {
   margin-left: 317px;
   animation: box-animation-2 5s infinite;
 }
+
 @keyframes box-animation-2 {
   from {
     transform: rotate(-0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
 .box-animation-3 {
   position: absolute;
   float: left;
@@ -638,14 +670,17 @@ footer {
   margin-left: 290px;
   animation: box-animation-3 5s infinite;
 }
+
 @keyframes box-animation-3 {
   from {
     transform: rotate(-0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
 .right-box-animation-1 {
   position: absolute;
   float: right;
@@ -654,6 +689,7 @@ footer {
   z-index: 10;
   right: 26%;
 }
+
 .right-box-animation-2 {
   position: absolute;
   float: right;
@@ -664,14 +700,17 @@ footer {
   margin-top: -40px;
   animation: box-animation-2 5s infinite;
 }
+
 @keyframes right-box-animation-2 {
   from {
     transform: rotate(-0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
 .right-box-animation-3 {
   position: absolute;
   float: right;
@@ -687,11 +726,13 @@ footer {
   from {
     transform: rotate(-0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
-.left-box-2nd{
+
+.left-box-2nd {
   position: absolute;
   float: left;
   width: 249.14px;
@@ -709,6 +750,7 @@ footer {
   z-index: 10;
   right: 16%;
 }
+
 .right-box-2nd-animation-2 {
   position: absolute;
   float: right;
@@ -719,14 +761,17 @@ footer {
   margin-top: -40px;
   animation: box-animation-2 5s infinite;
 }
+
 @keyframes right-box-animation-2 {
   from {
     transform: rotate(-0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
 .right-box-2nd-animation-3 {
   position: absolute;
   float: right;
@@ -742,6 +787,7 @@ footer {
   from {
     transform: rotate(-0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -754,6 +800,7 @@ footer {
   font-weight: 700;
   font-size: 32px;
 }
+
 .ai-para {
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
@@ -764,6 +811,7 @@ footer {
   margin-top: 4rem;
   margin-bottom: 2rem;
 }
+
 .shapes1,
 .shapes2,
 .shapes3,
@@ -771,15 +819,18 @@ footer {
 .shapes5 {
   position: relative;
 }
+
 .roadmap-table div {
   margin-top: 3em;
   margin-bottom: 3em;
   text-align: start;
   flex-basis: 100%;
 }
+
 .roadmap-table i {
   font-size: 2em;
 }
+
 .roadmap-header-h3 {
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
@@ -788,6 +839,7 @@ footer {
   line-height: 20px;
   text-align: start;
 }
+
 .list-group {
   font-family: Rajdhani;
   font-style: normal;
@@ -797,10 +849,12 @@ footer {
   letter-spacing: 0.15px;
   color: #5a5a5a;
 }
+
 .list-active-group {
   color: #2f2f2f;
   font-weight: 600;
 }
+
 .rectangle-active {
   height: 3px;
   width: 140px;
@@ -809,6 +863,7 @@ footer {
   top: -32px;
   left: 25%;
 }
+
 .rectangle-deactive {
   height: 3px;
   width: 140px;
@@ -817,6 +872,7 @@ footer {
   top: -32px;
   left: 25%;
 }
+
 .footbar-button-home1 {
   background: linear-gradient(44.73deg, #7c7c7c 11.32%, #4e4e4e 92.96%);
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -833,9 +889,11 @@ footer {
 
   color: #d7d7d8;
 }
+
 .footbar-button-home1:hover {
   color: #ffffff;
 }
+
 .intro-sentence-homeapp {
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
@@ -845,6 +903,7 @@ footer {
   text-align: left;
   color: #000000;
 }
+
 .home-rectangle {
   height: 4px;
   width: 155px;
@@ -864,12 +923,15 @@ footer {
   padding-bottom: 60px;
   width: 800px;
 }
+
 .pipeline-container-bg {
   background-color: #e0e0e0;
 }
+
 .pipeline-cards-section {
   background-color: #e0e0e0;
 }
+
 .pipe-card-buttons {
   background-color: #ffffff;
   border-radius: 40px;
@@ -884,10 +946,12 @@ footer {
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
+
 .pipe-card-button-class {
   display: flex;
   justify-content: start;
 }
+
 .pipe-card-header {
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
@@ -909,11 +973,13 @@ footer {
 
   color: #000000;
 }
+
 .pipe-card {
   position: relative;
   padding-top: 20px;
   left: 60px;
 }
+
 .modal-title {
   height: 80px;
   padding-left: 150px;
@@ -928,28 +994,34 @@ footer {
 
   color: #000000;
 }
+
 .modal-title2 {
   height: 180px;
   padding-left: 150px;
 }
+
 .content-img1 {
   position: relative;
   right: 700px;
   padding-top: 60px;
 }
+
 .content-img2 {
   padding-left: 60px;
 }
+
 .content-img3 {
   position: relative;
   right: 705px;
   padding-top: 110px;
 }
+
 .content-img4 {
   position: relative;
   right: 705px;
   padding-top: 50px;
 }
+
 .content-img5 {
   position: relative;
   right: 695px;
@@ -1007,6 +1079,7 @@ footer {
 .trad-cons {
   text-align: left;
 }
+
 .home-cons {
   text-align: left;
 }
@@ -1165,12 +1238,14 @@ footer {
   left: 95px;
   width: 700px;
 }
+
 .q-transactmap-div-title h2 {
   font-family: "Rajdhani", sans-serif;
   text-transform: capitalize;
   font-weight: 900;
   color: black;
 }
+
 .transaction-rectangle {
   height: 4px;
   width: 155px;
@@ -1183,6 +1258,7 @@ footer {
   left: 100px;
   width: 600px;
 }
+
 .q-tokenomics-showcase-intro-lead {
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
@@ -1192,6 +1268,7 @@ footer {
   color: #5a5a5a;
   padding-left: 20px;
 }
+
 .q-tokenomics-intro-content {
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
@@ -1201,6 +1278,7 @@ footer {
 
   color: #5a5a5a;
 }
+
 .intro-sentence-tokenomics {
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
@@ -1210,11 +1288,13 @@ footer {
   color: #5a5a5a;
   text-align: left;
 }
+
 .q-tokenomics-bg-icon-2 {
   position: relative;
   left: 130px;
   width: 600px;
 }
+
 .q-tokenomics-caption-1 {
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
@@ -1225,6 +1305,7 @@ footer {
 
   color: #5a5a5a;
 }
+
 .q-tokenomics-type-row-1 {
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
@@ -1235,6 +1316,7 @@ footer {
 
   color: #5a5a5a;
 }
+
 .q-tokenomics-caption-lead-1 {
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
@@ -1244,6 +1326,7 @@ footer {
 
   color: #5a5a5a;
 }
+
 .q-tokenomics-content-2 {
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
@@ -1553,6 +1636,7 @@ footer {
   align-items: center;
   text-align: right;
 }
+
 .q-tokenomics-th-position {
   text-align: right;
 }
@@ -1561,15 +1645,18 @@ footer {
 html {
   scroll-behavior: smooth;
 }
+
 .people-card-title,
 .people-card-text {
   font-family: "Rajdhani", sans-serif;
 }
+
 .people-rectangle {
   height: 4px;
   width: 155px;
   background-color: #c4c4c4;
 }
+
 .people-card-title {
   font-family: Rajdhani;
   font-style: normal;
@@ -1583,21 +1670,25 @@ html {
   font-size: 24px;
   line-height: 30.62px;
 }
+
 .people-card-title-pos {
   font-weight: 400;
   font-size: 18px;
   line-height: 22.97px;
 }
+
 .people-title {
   font-family: Rajdhani;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 32px;
 }
+
 .people-boxes {
   max-width: 515px;
   height: 160px;
 }
+
 .people-footbar-button-people {
   background: linear-gradient(44.73deg, #7c7c7c 11.32%, #4e4e4e 92.96%);
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -1614,6 +1705,7 @@ html {
 
   color: #d7d7d8;
 }
+
 .people-footbar-button-people:hover {
   color: #ffffff;
 }
@@ -1635,6 +1727,7 @@ html {
   text-transform: uppercase;
   color: #000000;
 }
+
 .carbon-content-message {
   text-align: left;
   font-family: "Rajdhani", sans-serif;
@@ -1644,13 +1737,16 @@ html {
   line-height: 23px;
   color: #5a5a5a;
 }
+
 .carbon-content-frame {
   top: 15px;
   position: relative;
 }
+
 .carbon-benefits-container {
   background-color: #e0e0e0;
 }
+
 .carbon-benefits-content {
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
@@ -1670,15 +1766,18 @@ html {
   width: 155px;
   background-color: #c4c4c4;
 }
+
 .faq-title {
   font-family: Rajdhani;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 32px;
 }
+
 .faqs-container {
   background-color: #f8f8f8;
 }
+
 .faqs-header {
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
@@ -1688,6 +1787,7 @@ html {
 
   color: #5a5a5a;
 }
+
 .faqs-text {
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
@@ -1698,14 +1798,16 @@ html {
   color: #5a5a5a;
   padding-bottom: 25px;
 }
+
 .faqs-content {
   width: 1000px;
 }
 
 /* Media  by Jade*/
-@media (max-width: 576px) {
-}
+@media (max-width: 576px) {}
+
 @media (max-width: 768px) {
+
   /* footer logo */
   .footer-logo {
     float: none;
@@ -1722,21 +1824,25 @@ html {
     padding: 1rem;
   }
 }
+
 @media (max-width: 992px) {
+
   /* nav item pipehome  */
   .nav-item-pipehome {
     transform: translateX(-12px);
   }
+
   /* footer button */
   .footer-button {
     float: none;
     width: 115px;
     height: 35px;
   }
+
   /* faq content */
   .faqs-content {
     width: 650px;
   }
 }
-@media (max-width: 1200px) {
-}
+
+@media (max-width: 1200px) {}
