@@ -812,24 +812,6 @@ footer {
   margin-bottom: 2rem;
 }
 
-.shapes1,
-.shapes2,
-.shapes3,
-.shapes4,
-.shapes5 {
-  position: relative;
-}
-
-.roadmap-table div {
-  margin-top: 3em;
-  margin-bottom: 3em;
-  text-align: start;
-  flex-basis: 100%;
-}
-
-.roadmap-table i {
-  font-size: 2em;
-}
 
 .roadmap-header-h3 {
   font-family: "Rajdhani", sans-serif;
@@ -837,7 +819,8 @@ footer {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  text-align: start;
+  margin-top: 2em;
+
 }
 
 .list-group {
@@ -853,24 +836,6 @@ footer {
 .list-active-group {
   color: #2f2f2f;
   font-weight: 600;
-}
-
-.rectangle-active {
-  height: 3px;
-  width: 140px;
-  background-color: #2f2f2f;
-  position: absolute;
-  top: -32px;
-  left: 25%;
-}
-
-.rectangle-deactive {
-  height: 3px;
-  width: 140px;
-  background-color: #e0e0e0;
-  position: absolute;
-  top: -32px;
-  left: 25%;
 }
 
 .footbar-button-home1 {
@@ -1846,3 +1811,76 @@ html {
 }
 
 @media (max-width: 1200px) {}
+
+.timeline-steps {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap
+}
+
+.timeline-steps .timeline-step {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 1rem
+}
+
+@media (min-width:768px) {
+  .timeline-steps .timeline-step:not(:last-child):after {
+      content: "";
+      display: block;
+      border-top: .25rem solid #2f2f2f;
+      width: 3.46rem;
+      position: absolute;
+      left: 7.5rem;
+      top: .3125rem
+  }
+  .timeline-steps .timeline-step:not(:first-child):before {
+      content: "";
+      display: block;
+      border-top: .25rem solid #2f2f2f;
+      width: 3.8125rem;
+      position: absolute;
+      right: 7.5rem;
+      top: .3125rem
+  }
+  
+  
+}
+
+
+.timeline-steps .timeline-content {
+  width: 10rem;
+  text-align: center
+}
+
+.timeline-steps .timeline-content .inner-circle {
+  border-radius: 1.5rem;
+  height: 1rem;
+  width: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2f2f2f
+}
+
+.timeline-steps .timeline-content .inner-circle:before {
+  content: "";
+  background-color: #2f2f2f;
+  display: inline-block;
+  height: 2rem;
+  width: 2em;
+  min-width: 2rem;
+  border-radius: 2rem;
+  opacity: 1;
+}
+.not-active{
+
+  background-color: #e0e0e0 !important;
+}
+
+
+.list-group-item{
+  text-align: start;
+}
