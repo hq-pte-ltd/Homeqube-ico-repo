@@ -6,6 +6,7 @@ $(function(){
         speed: 300,
         slidesToShow: 2,
         slidesToScroll: 1,
+        draggable: false,
         prevArrow: '<span class="prev_arrow"><i class="fas fa-angle-left"></i></span>',
         nextArrow: '<span class="next_arrow"><i class="fas fa-angle-right"></i></span>',
         responsive: [

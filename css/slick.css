@@ -37,6 +37,7 @@
 {
     cursor: pointer;
     cursor: hand;
+    cursor: text;
 }
 
 .slick-slider .slick-track,
@@ -121,4 +122,18 @@
 }
 .slick-disabled{
     background-color: rgb(214, 210, 210);
+}
+.slick-slider {
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+.slick-list.draggable {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
