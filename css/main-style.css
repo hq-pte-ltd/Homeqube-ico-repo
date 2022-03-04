@@ -319,6 +319,43 @@ padding-bottom: 200px;
 }
 
 /* FAQ Styles */
+.faq-rectangle {
+  height: 4px;
+  width: 155px;
+  background-color: #C4C4C4;
+}
+.faq-title{
+  font-family: Rajdhani;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 32px;
+}
+.faqs-container{
+  background-color: #F8F8F8;
+}
+.faqs-header{
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+
+  color: #5a5a5a;
+}
+.faqs-text{
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+
+  color: #5a5a5a;
+  padding-bottom: 25px;
+}
+.faqs-content{
+    width: 1000px;
+}
+
 
 /* Media  by Jade*/
 @media (max-width: 576px) {
@@ -350,6 +387,10 @@ padding-bottom: 200px;
     float: none;
     width: 115px;
     height: 35px;
+  }
+  /* faq content */
+  .faqs-content {
+    width: 650px;
   }
 }
 @media (max-width: 1200px) {
