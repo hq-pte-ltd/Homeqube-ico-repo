@@ -691,6 +691,63 @@ footer {
     transform: rotate(360deg);
   }
 }
+.left-box-2nd{
+  position: absolute;
+  float: left;
+  width: 249.14px;
+  height: 263.72px;
+  z-index: 10;
+  margin-top: -175px;
+  left: 2.7%;
+}
+
+.right-box-2nd-animation-1 {
+  position: absolute;
+  float: right;
+  width: 135.03px;
+  height: 143.1px;
+  z-index: 10;
+  right: 16%;
+}
+.right-box-2nd-animation-2 {
+  position: absolute;
+  float: right;
+  width: 59.8px;
+  height: 63.37px;
+  z-index: 10;
+  right: 10.5%;
+  margin-top: -40px;
+  animation: box-animation-2 5s infinite;
+}
+@keyframes right-box-animation-2 {
+  from {
+    transform: rotate(-0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.right-box-2nd-animation-3 {
+  position: absolute;
+  float: right;
+  width: 99.9px;
+  height: 105.69px;
+  z-index: 10;
+  margin-top: 50px;
+  right: 10%;
+  animation: box-animation-2 5s infinite;
+}
+
+@keyframes right-box-animation-3 {
+  from {
+    transform: rotate(-0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
 .ai-title {
   font-family: "Rajdhani", sans-serif;
   text-transform: uppercase;
