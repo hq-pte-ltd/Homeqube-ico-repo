@@ -271,6 +271,98 @@ footer {
 .footer-button:hover{
   color: #ffffff;
 }
+/* pipeline style */
+.pipeline-bg-icon-elipse1 {
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-bottom: 60px;
+  width: 800px;
+}
+.piple-line-container-bg {
+  background-color: #e0e0e0;
+}
+.pipeline-cards-section {
+  background-color: #e0e0e0;
+}
+.pipe-card-buttons {
+  background-color: #ffffff;
+  border-radius: 40px;
+  width: 140px;
+  height: 50px;
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.pipe-card-button-class {
+  display: flex;
+  justify-content: start;
+}
+.card {
+  width: 1000px;
+}
+.pipe-card-header {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+
+  color: #5a5a5a;
+  text-align: left;
+}
+
+.pipe-card-lead {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-justify: inter-word;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #000000;
+}
+.pipe-card {
+  position: relative;
+  padding-top: 20px;
+  left: 60px;
+}
+.modal-title {
+  height: 80px;
+  padding-left: 150px;
+}
+.modal-title2 {
+  height: 180px;
+  padding-left: 150px;
+}
+.content-img1 {
+  position: relative;
+  right: 700px;
+  padding-top: 60px;
+}
+.content-img2 {
+  padding-left: 60px;
+}
+.content-img3 {
+  position: relative;
+  right: 705px;
+  padding-top: 110px;
+}
+.content-img4 {
+  position: relative;
+  right: 705px;
+  padding-top: 50px;
+}
+.content-img5 {
+  position: relative;
+  right: 695px;
+  padding-top: 120px;
+}
+
 /* transaction style  */
 .bg-icon-transaction {
   position: relative;
