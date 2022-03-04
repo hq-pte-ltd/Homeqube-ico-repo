@@ -271,6 +271,24 @@ footer {
 .footer-button:hover{
   color: #ffffff;
 }
+/* transaction style  */
+.bg-icon-transaction {
+  position: relative;
+  top: 35px;
+  left: 95px;
+  width: 700px;
+}
+.q-transactmap-div-title h2 {
+  font-family: "Rajdhani", sans-serif;
+  text-transform: capitalize;
+  font-weight: 900;
+  color: black;
+}
+.transaction-rectangle {
+  height: 4px;
+  width: 155px;
+  background-color: #c4c4c4;
+}
 
 /* qube-tokenomics style  */
 .bg-icon-tokenomics {
@@ -651,6 +669,7 @@ footer {
 .q-tokenomics-th-position{
   text-align: right;
 }
+
 /* The people style  */
 html {
   scroll-behavior: smooth;
