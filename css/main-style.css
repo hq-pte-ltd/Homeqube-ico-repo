@@ -11,6 +11,7 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #d7d7d8;
+  font-family: "Rajdhani", sans-serif;
 }
 
 .nav-item-QTrans {
@@ -22,6 +23,7 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #d7d7d8;
+  font-family: "Rajdhani", sans-serif;
 }
 .nav-item-QToken {
   font-style: normal;
@@ -32,6 +34,7 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #d7d7d8;
+  font-family: "Rajdhani", sans-serif;
 }
 .nav-item-CarbonCred {
   left: 50.52%;
@@ -48,6 +51,7 @@
   text-transform: uppercase;
 
   color: #d7d7d8;
+  font-family: "Rajdhani", sans-serif;
 }
 .nav-item-People {
   left: 62.84%;
@@ -64,6 +68,7 @@
   text-transform: uppercase;
 
   color: #d7d7d8;
+  font-family: "Rajdhani", sans-serif;
 }
 .nav-item-FAQ {
   left: 75.17%;
@@ -79,6 +84,7 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #d7d7d8;
+  font-family: "Rajdhani", sans-serif;
 }
 
 .navbar-toggler {
@@ -265,6 +271,55 @@ footer {
 .footer-button:hover{
   color: #ffffff;
 }
+
+/* Carbon Styles */
+.carbon-content-container-bg {
+  background-color: #e0e0e0;
+}
+
+.carbon-content-header{
+  text-align:left;
+  size: 32px;
+  margin-top: 20px;
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 41px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.carbon-content-message{
+text-align:left;
+font-family: "Rajdhani", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+color: #5a5a5a;
+}
+.carbon-content-frame{
+top: 15px;
+position: relative;
+}
+.carbon-benefits-container{
+background-color: #e0e0e0;
+}
+.carbon-benefits-content{
+font-family: "Rajdhani", sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 36px;
+
+color: #5a5a5a;
+padding-left: 180px;
+padding-top: 100px;
+padding-bottom: 200px;
+}
+
+/* FAQ Styles */
+
 /* Media  by Jade*/
 @media (max-width: 576px) {
 }
