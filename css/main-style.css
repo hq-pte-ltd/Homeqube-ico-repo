@@ -272,6 +272,67 @@ footer {
   color: #ffffff;
 }
 
+/* The people style  */
+html {
+  scroll-behavior: smooth;
+}
+.people-card-title,
+.people-card-text {
+  font-family: "Rajdhani", sans-serif;
+}
+.people-rectangle {
+  height: 4px;
+  width: 155px;
+  background-color: #c4c4c4;
+}
+.people-card-title {
+  font-family: Rajdhani;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  color: #5a5a5a;
+}
+
+.people-card-title-name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30.62px;
+}
+.people-card-title-pos {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22.97px;
+}
+.people-title {
+  font-family: Rajdhani;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 32px;
+}
+.people-boxes {
+  max-width: 515px;
+  height: 160px;
+}
+.people-footbar-button-people {
+  background: linear-gradient(44.73deg, #7c7c7c 11.32%, #4e4e4e 92.96%);
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  width: 100%;
+  height: 50px;
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
+
+  color: #d7d7d8;
+}
+.people-footbar-button-people:hover {
+  color: #ffffff;
+}
+
 /* Carbon Styles */
 .carbon-content-container-bg {
   background-color: #e0e0e0;
@@ -355,7 +416,6 @@ padding-bottom: 200px;
 .faqs-content{
     width: 1000px;
 }
-
 
 /* Media  by Jade*/
 @media (max-width: 576px) {
