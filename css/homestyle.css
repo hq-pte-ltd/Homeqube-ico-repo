@@ -148,7 +148,7 @@
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 3px;
   line-height: 41px;
   /* identical to box height */
 
@@ -367,14 +367,14 @@
   cursor: pointer;
   color: #fff;
 }
-.box-animation-1{
+.box-animation-1 {
   position: absolute;
   float: left;
   width: 249.14px;
   height: 263.72px;
   z-index: 10;
 }
-.box-animation-2{
+.box-animation-2 {
   position: absolute;
   float: left;
   width: 59.8px;
@@ -384,10 +384,14 @@
   animation: box-animation-2 5s infinite;
 }
 @keyframes box-animation-2 {
-  from { transform: rotate(-0deg);}
-  to { transform:  rotate(360deg);}
+  from {
+    transform: rotate(-0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
-.box-animation-3{
+.box-animation-3 {
   position: absolute;
   float: left;
   width: 99.9px;
@@ -398,10 +402,14 @@
   animation: box-animation-3 5s infinite;
 }
 @keyframes box-animation-3 {
-  from { transform: rotate(-0deg);}
-  to { transform:  rotate(360deg);}
+  from {
+    transform: rotate(-0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
-.right-box-animation-1{
+.right-box-animation-1 {
   position: absolute;
   float: right;
   width: 135.03px;
@@ -410,7 +418,7 @@
   left: 67%;
 }
 
-.right-box-animation-2{
+.right-box-animation-2 {
   position: absolute;
   float: right;
   width: 59.8px;
@@ -422,11 +430,15 @@
 }
 
 @keyframes right-box-animation-2 {
-  from { transform: rotate(-0deg);}
-  to { transform:  rotate(360deg);}
+  from {
+    transform: rotate(-0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-.right-box-animation-3{
+.right-box-animation-3 {
   position: absolute;
   float: right;
   width: 99.9px;
@@ -438,33 +450,36 @@
 }
 
 @keyframes right-box-animation-3 {
-  from { transform: rotate(-0deg);}
-  to { transform:  rotate(360deg);}
+  from {
+    transform: rotate(-0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
-.ai-title{
+.ai-title {
   font-family: "Rajdhani", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 32px;
 }
 
-.ai-para{
+.ai-para {
   font-family: "Rajdhani", sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 18px;
-text-align: left;
- margin-top: 4rem;
- margin-bottom: 2rem;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
 }
 
-.rectangle{
+.rectangle {
   height: 4px;
   width: 155px;
   background-color: #c4c4c4;
 }
-
 
 /* .roadmap-table{
   display: grid;
@@ -525,56 +540,60 @@ text-align: left;
   grid-area: roadmap-list5;
 } */
 
-.shapes1, .shapes2, .shapes3, .shapes4, .shapes5{
+.shapes1,
+.shapes2,
+.shapes3,
+.shapes4,
+.shapes5 {
   position: relative;
 }
-.roadmap-table div{
+.roadmap-table div {
   margin-top: 3em;
   margin-bottom: 3em;
   text-align: start;
-  flex-basis: 100%
+  flex-basis: 100%;
 }
-.roadmap-table i{
+.roadmap-table i {
   font-size: 2em;
 }
-.roadmap-header-h3{
+.roadmap-header-h3 {
   font-family: "Rajdhani", sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 20px;
-text-align: start;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: start;
 }
 
-.list-group{
+.list-group {
   font-family: Rajdhani;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 20px;
-letter-spacing: 0.15px;
-color: #5A5A5A;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.15px;
+  color: #5a5a5a;
 }
-.list-active-group{
+.list-active-group {
   color: #2f2f2f;
   font-weight: 600;
 }
-.rectangle-active{
+.rectangle-active {
   height: 3px;
   width: 140px;
   background-color: #2f2f2f;
   position: absolute;
-  top:-32px;
-  left:25%;
+  top: -32px;
+  left: 25%;
 }
 
-.rectangle-deactive{
+.rectangle-deactive {
   height: 3px;
   width: 140px;
-  background-color: #E0E0E0;
+  background-color: #e0e0e0;
   position: absolute;
-  top:-32px;
-  left:25%;
+  top: -32px;
+  left: 25%;
 }
 .footbar-button-home1 {
   background: linear-gradient(44.73deg, #7c7c7c 11.32%, #4e4e4e 92.96%);
@@ -594,4 +613,14 @@ color: #5A5A5A;
 }
 .footbar-button-home1:hover {
   color: #ffffff;
+}
+
+.intro-sentence-homeapp {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+  color: #000000;
 }
