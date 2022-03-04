@@ -272,6 +272,385 @@ footer {
   color: #ffffff;
 }
 
+/* qube-tokenomics style  */
+.bg-icon-tokenomics {
+  position: relative;
+  left: 100px;
+  width: 600px;
+}
+.q-tokenomics-showcase-intro-lead {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #5a5a5a;
+  padding-left: 20px;
+}
+.q-tokenomics-intro-content {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+
+  color: #5a5a5a;
+}
+.intro-sentence-tokenomics {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #5a5a5a;
+  text-align: left;
+}
+.q-tokenomics-bg-icon-2 {
+  position: relative;
+  left: 130px;
+  width: 600px;
+}
+.q-tokenomics-caption-1 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #5a5a5a;
+}
+.q-tokenomics-type-row-1 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+  align-items: center;
+
+  color: #5a5a5a;
+}
+.q-tokenomics-caption-lead-1 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #5a5a5a;
+}
+.q-tokenomics-content-2 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+
+  color: #5a5a5a;
+}
+
+.q-tokenomics-content-3 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+
+  color: #5a5a5a;
+}
+
+.q-tokenomics-content-4 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+
+  color: #5a5a5a;
+}
+
+.q-tokenomics-content-5 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+
+  color: #5a5a5a;
+}
+
+.q-tokenomics-content-6 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+
+  color: #5a5a5a;
+}
+
+.q-tokenomics-content-7 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+
+  color: #5a5a5a;
+}
+
+.q-tokenomics-content-8 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+
+  color: #5a5a5a;
+}
+
+.q-tokenomics-content-9 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+
+  color: #5a5a5a;
+}
+
+.q-tokenomics-content-10 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+
+  color: #5a5a5a;
+}
+
+.q-tokenomics-content-11 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+
+  color: #5a5a5a;
+}
+
+.q-tokenomics-content-2-2 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  text-align: right;
+}
+
+.q-tokenomics-content-3-3 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  text-align: right;
+}
+
+.q-tokenomics-content-4-4 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  text-align: right;
+}
+
+.q-tokenomics-content-5-5 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  text-align: right;
+}
+
+.q-tokenomics-content-6-6 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  text-align: right;
+}
+
+.q-tokenomics-content-7-7 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  text-align: right;
+}
+
+.q-tokenomics-content-8-8 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  text-align: right;
+}
+
+.q-tokenomics-content-9-9 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  text-align: right;
+}
+
+.q-tokenomics-content-10-10 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  text-align: right;
+}
+
+.q-tokenomics-content-11-11 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  text-align: right;
+}
+
+.q-tokenomics-content-2-2-2 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  text-align: right;
+}
+
+.q-tokenomics-content-3-3-3 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  text-align: right;
+}
+
+.q-tokenomics-content-4-4-4 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  text-align: right;
+}
+
+.q-tokenomics-content-5-5-5 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  text-align: right;
+}
+
+.q-tokenomics-content-6-6-6 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  text-align: right;
+}
+
+.q-tokenomics-content-7-7-7 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  text-align: right;
+}
+
+.q-tokenomics-content-8-8-8 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  text-align: right;
+}
+
+.q-tokenomics-content-9-9-9 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  text-align: right;
+}
+
+.q-tokenomics-content-10-10-10 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  text-align: right;
+}
+
+.q-tokenomics-content-11-11-11 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  text-align: right;
+}
+.q-tokenomics-th-position{
+  text-align: right;
+}
 /* The people style  */
 html {
   scroll-behavior: smooth;
