@@ -1830,7 +1830,7 @@ html {
   .timeline-steps .timeline-step:not(:last-child):after {
       content: "";
       display: block;
-      border-top: .25rem solid #2f2f2f;
+      border-top: .25rem solid #e0e0e0;
       width: 3.46rem;
       position: absolute;
       left: 7.5rem;
@@ -1839,13 +1839,41 @@ html {
   .timeline-steps .timeline-step:not(:first-child):before {
       content: "";
       display: block;
-      border-top: .25rem solid #2f2f2f;
+      border-top: .25rem solid #e0e0e0;
       width: 3.8125rem;
       position: absolute;
       right: 7.5rem;
       top: .3125rem
   }
-  
+  .timeline-steps .timeline-step:nth-child(2):not(:first-child):before {
+    content: "";
+    display: block;
+    border-top: .25rem solid #2f2f2f;
+    width: 3.46rem;
+    position: absolute;
+    left: 7.5rem;
+    top: .3125rem
+}
+
+  .timeline-steps .timeline-step:nth-child(1):not(:last-child):after{
+    content: "";
+      display: block;
+      border-top: .25rem solid #2f2f2f;
+      width: 3.46rem;
+      position: absolute;
+      left: 7.5rem;
+      top: .3125rem
+  }
+  .timeline-steps .timeline-step:nth-child(1):not(:last-child):before{
+    content: "";
+      display: block;
+      border-top: .25rem solid #2f2f2f;
+      width: 6.46rem;
+      position: absolute;
+      left: 7.5rem;
+      top: .3125rem
+  }
+ 
   
 }
 
@@ -1875,11 +1903,30 @@ html {
   border-radius: 2rem;
   opacity: 1;
 }
-.not-active{
 
-  background-color: #e0e0e0 !important;
+.timeline-steps .timeline-step:nth-child(3) .timeline-content .inner-circle,
+.timeline-steps .timeline-step:nth-child(4) .timeline-content .inner-circle,
+.timeline-steps .timeline-step:nth-child(5) .timeline-content .inner-circle{
+  border-radius: 1.5rem;
+  height: 1rem;
+  width: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e0e0e0;
 }
-
+.timeline-steps .timeline-step:nth-child(3) .timeline-content .inner-circle::before,
+.timeline-steps .timeline-step:nth-child(4) .timeline-content .inner-circle::before,
+.timeline-steps .timeline-step:nth-child(5) .timeline-content .inner-circle::before{
+  content: "";
+  background-color: #e0e0e0;
+  display: inline-block;
+  height: 2rem;
+  width: 2em;
+  min-width: 2rem;
+  border-radius: 2rem;
+  opacity: 1;
+}
 
 .list-group-item{
   text-align: start;
