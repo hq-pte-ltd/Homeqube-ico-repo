@@ -881,8 +881,8 @@ footer {
 .pipe-card-buttons {
   background-color: #ffffff;
   border-radius: 40px;
-  width: 140px;
-  height: 50px;
+  width: 10em;
+  height: 3em;
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -902,7 +902,7 @@ footer {
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 28px;
+  font-size: 2em;
   line-height: 36px;
 
   color: #5a5a5a;
@@ -922,8 +922,8 @@ footer {
 
 .pipe-card {
   position: relative;
-  padding-top: 20px;
-  left: 60px;
+  padding-top: 1em;
+  left: 3em;
 }
 
 .modal-title {
@@ -1747,6 +1747,35 @@ html {
     width: 115px;
     height: 55px;
   }
+  /* showcase 2 */
+
+  .showcase-intro-2{
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 2em;
+  padding-bottom: 7em;
+  }
+
+  /* Card*/
+  .card{
+    width: 15em !important;
+    height: auto;
+  }
+  .pipe-card{
+  padding-top: 0;
+  left: 0;
+  margin-left: 0em !important;
+  }
+  .cards-section{
+    padding-left: 0em !important;
+    padding-top: 0em !important;
+    padding-right: 0em !important;
+  }
+  
+  .pipe-card1-img{
+    padding-left: 0em !important;
+    padding-top: 0em !important;
+  }
 }
 @media (max-width: 536px) {
     /* footer button */
@@ -1755,6 +1784,34 @@ html {
       width: 115px;
       height: 55px;
     }
+    /* showcase 2 */
+
+  .showcase-intro-2{
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 2em;
+    padding-bottom: 7em;
+    }
+    /* Card*/
+  .card{
+    width: 15em !important;
+    height: auto;
+  }
+  .pipe-card{
+  padding-top: 0;
+  left: 0;
+  margin-left: 0em !important;
+  }
+  .cards-section{
+    padding-left: 0em !important;
+    padding-top: 0em !important;
+    padding-right: 0em !important;
+  }
+  
+  .pipe-card1-img{
+    padding-left: 0em !important;
+    padding-top: 0em !important;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1763,6 +1820,34 @@ html {
     float: none;
     width: 115px;
     height: 55px;
+  }
+  /* showcase 2 */
+
+  .showcase-intro-2{
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 2em;
+    padding-bottom: 7em;
+    }
+    /* Card*/
+  .card{
+    width: 18em !important;
+    height: auto;
+  }
+  .pipe-card{
+  padding-top: 0;
+  left: 0;
+  margin-left: 0em !important;
+  }
+  .cards-section{
+    padding-left: 0em !important;
+    padding-top: 0em !important;
+    padding-right: 0em !important;
+  }
+  
+  .pipe-card1-img{
+    padding-left: 0em !important;
+    padding-top: 0em !important;
   }
 }
 
@@ -1793,7 +1878,44 @@ html {
     width: 115px;
     height: 55px;
   }
+  /* showcase 2 */
+
+  .showcase-intro-2{
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 2em;
+    padding-bottom: 7em;
+    }
+  /* Card*/
+  .card{
+    width: 18em !important;
+    height: auto;
+  }
+  .pipe-card{
+  padding-top: 0;
+  left: 0;
+  margin-left: 0em !important;
+  }
+  .showcase1 .container .d-sm-flex{
+    flex-direction: column !important;
 }
+.showcase-intro,  .showcase-intro-lead{
+  text-align: center;
+}
+  
+  
+  
+  
+}
+
+@media only screen and (max-width: 900px) and (min-width: 400px){
+  .cards-section .container .card{
+     width: 100% !important;
+  }
+  
+   
+}
+
 @media (max-width: 1200px) {
 
 }
