@@ -1803,11 +1803,6 @@ html {
     width: 115px;
     height: 35px;
   }
-
-  /* faq content */
-  .faqs-content {
-    width: 650px;
-  }
 }
 
 @media (max-width: 1200px) {}
@@ -1931,3 +1926,46 @@ html {
 .list-group-item{
   text-align: start;
 }
+
+/* media for faqs */
+@media (max-width: 576px) {}
+
+@media (max-width: 768px) {
+
+  /* footer logo */
+  .footer-logo {
+    float: none;
+    padding: 0;
+  }
+
+  /* footer text */
+  .footer-text {
+    text-align: center;
+  }
+
+  /* footer links */
+  .link {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 992px) {
+
+  /* nav item pipehome  */
+  .nav-item-pipehome {
+    transform: translateX(-12px);
+  }
+
+  /* footer button */
+  .footer-button {
+    float: none;
+    width: 115px;
+    height: 35px;
+  }
+
+  /* faq content */
+  /* .faqs-content {
+    width: 650px;
+  } */
+}
+@media (max-width: 1200px) {}
