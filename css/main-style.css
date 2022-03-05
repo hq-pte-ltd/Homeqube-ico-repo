@@ -1747,9 +1747,6 @@ html {
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 28px;
-  line-height: 36px;
-
   color: #5a5a5a;
 }
 
@@ -1757,24 +1754,46 @@ html {
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 28px;
-  line-height: 36px;
+
 
   color: #5a5a5a;
-  padding-bottom: 25px;
-}
-
-.faqs-content {
-  width: 1000px;
 }
 
 /* Media  by Jade*/
-@media (max-width: 576px) {}
+@media (max-width: 360px) {
+  /* footer button */
+  .footer-button {
+    float: none;
+    width: 115px;
+    height: 55px;
+  }
+}
+@media (max-width: 536px) {
+    /* footer button */
+    .footer-button {
+      float: none;
+      width: 115px;
+      height: 55px;
+    }
+}
 
 @media (max-width: 768px) {
+  /* footer button */
+  .footer-button {
+    float: none;
+    width: 115px;
+    height: 55px;
+  }
+}
 
-  /* footer logo */
-  .footer-logo {
+@media (max-width: 992px) {
+
+  /* nav item pipehome  */
+  .nav-item-pipehome {
+    transform: translateX(-12px);
+  }
+   /* footer logo */
+   .footer-logo {
     float: none;
     padding: 0;
   }
@@ -1788,22 +1807,33 @@ html {
   .link {
     padding: 1rem;
   }
-}
-
-@media (max-width: 992px) {
-
-  /* nav item pipehome  */
-  .nav-item-pipehome {
-    transform: translateX(-12px);
-  }
-
-  /* footer button */
-  .footer-button {
+   /* footer button */
+   .footer-button {
     float: none;
     width: 115px;
-    height: 35px;
+    height: 55px;
   }
 }
+@media (max-width: 1200px) {
+
+}
+
+/* --------------------------------------------------  */
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width:768px) {
+
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 370px) {}
+
+/* --------------------------------------------------  */
 
 @media (max-width: 1200px) {}
 
@@ -1928,44 +1958,60 @@ html {
 }
 
 /* media for faqs */
-@media (max-width: 576px) {}
-
-@media (max-width: 768px) {
-
-  /* footer logo */
-  .footer-logo {
-    float: none;
-    padding: 0;
+@media (min-width: 370px) {
+  .faqs-header{
+    font-size: 1em;
+    line-height: 1.25em;
   }
-
-  /* footer text */
-  .footer-text {
-    text-align: center;
+  .faqs-text{
+    font-size: 1em;
+    line-height: 1.25em;
+    padding-bottom: 1em;
   }
-
-  /* footer links */
-  .link {
-    padding: 1rem;
+}
+@media (min-width: 576px) {
+  .faqs-header{
+    font-size: 1em;
+    line-height: 1.25em;
+  }
+  .faqs-text{
+    font-size: 1em;
+    line-height: 1.25em;
+    padding-bottom: 1em;
   }
 }
 
-@media (max-width: 992px) {
-
-  /* nav item pipehome  */
-  .nav-item-pipehome {
-    transform: translateX(-12px);
+@media (min-width: 768px) {
+  .faqs-header{
+    font-size: 1.5em;
+    line-height: 1.25em;
   }
-
-  /* footer button */
-  .footer-button {
-    float: none;
-    width: 115px;
-    height: 35px;
+  .faqs-text{
+    font-size: 1.5em;
+    line-height: 1.25em;
+    padding-bottom: 1em;
   }
-
-  /* faq content */
-  /* .faqs-content {
-    width: 650px;
-  } */
 }
-@media (max-width: 1200px) {}
+
+@media (min-width: 992px) {
+  .faqs-header{
+    font-size: 1.75em;
+    line-height: 1.50em;
+  }
+  .faqs-text{
+    font-size: 1.75em;
+    line-height: 1.50em;
+    padding-bottom: 1.25em;
+  }
+}
+@media (min-width: 1200px) {
+  .faqs-header{
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .faqs-text{
+    font-size: 28px;
+    line-height: 36px;
+    padding-bottom: 25px;
+  }
+}
