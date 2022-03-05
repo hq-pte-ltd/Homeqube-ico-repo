@@ -2174,3 +2174,7 @@ html {
     line-height: 41px;
   }
 }
+
+html,body{
+  overflow-x: hidden;
+}
