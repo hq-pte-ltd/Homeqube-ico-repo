@@ -1676,21 +1676,16 @@ html {
 }
 
 /* Carbon Styles */
-.carbon-content-container-bg {
-  background-color: #e0e0e0;
-}
 
 .carbon-content-header {
   text-align: left;
-  size: 32px;
   margin-top: 20px;
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 32px;
-  line-height: 41px;
   text-transform: uppercase;
   color: #000000;
+  
 }
 
 .carbon-content-message {
@@ -1714,16 +1709,20 @@ html {
 
 .carbon-benefits-content {
   font-family: "Rajdhani", sans-serif;
-  font-style: normal;
+  color: #5a5a5a;
   font-weight: bold;
-  font-size: 28px;
-  line-height: 36px;
+  padding-top: 20px;
+}
+.carbon-text {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+
 
   color: #5a5a5a;
-  padding-left: 180px;
-  padding-top: 100px;
-  padding-bottom: 200px;
 }
+
+
 
 /* FAQ Styles */
 .faq-rectangle {
@@ -2013,5 +2012,62 @@ html {
     font-size: 28px;
     line-height: 36px;
     padding-bottom: 25px;
+  }
+}
+/* media for carbon */
+@media (min-width: 370px) {
+  .carbon-content-header{
+    font-size: 1em;
+    line-height: 1.25em;
+  }
+  .carbon-text{
+    font-size: 1em;
+    line-height: 1.25em;
+    padding-bottom: 1em;
+  }
+}
+@media (min-width: 576px) {
+  .carbon-content-header{
+    font-size: 1em;
+    line-height: 1.25em;
+  }
+  .carbon-text{
+    font-size: 1em;
+    line-height: 1.25em;
+    padding-bottom: 1em;
+  }
+}
+
+@media (min-width: 768px) {
+  .carbon-content-header{
+    font-size: 1em;
+    line-height: 1.25em;
+  }
+  .carbon-text{
+    font-size: 1em;
+    line-height: 1.25em;
+    padding-bottom: 1em;
+  }
+}
+
+@media (min-width: 992px) {
+  .carbon-content-header{
+    font-size: 1em;
+    line-height: 1.50em;
+  }
+  .carbon-text{
+    font-size: 1em;
+    line-height: 1.25em;
+    padding-bottom: 1.25em;
+  }
+}
+@media (min-width: 1200px) {
+  .carbon-content-header{
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .carbon-text{
+    font-size: 28px;
+    line-height: 41px;
   }
 }
