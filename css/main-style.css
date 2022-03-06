@@ -928,7 +928,6 @@ footer {
 
 .modal-title {
   height: 80px;
-  padding-left: 150px;
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -980,30 +979,41 @@ footer {
   font-weight: normal;
   font-size: 18px;
   line-height: 23px;
-  padding-left: 169px;
   color: #000000;
+  display: flex;
+  justify-content: start;
 }
 
 .img1 {
   display: flex;
   justify-content: start;
-  padding-left: 169px;
 }
 
-.text1,
-.card2-list {
+.text1{
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 23px;
-  padding-left: 169px;
+  display: flex;
+  justify-content: start;
 }
+
+
+
+.card2-list{
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: left;
+}
+
 
 .img2 {
   display: flex;
   justify-content: start;
-  padding-left: 155px;
 }
 
 .square-2 {
@@ -1013,7 +1023,7 @@ footer {
 
 .img3 {
   display: flex;
-  justify-content: center;
+  justify-content: start;
 }
 
 .square-3 {
@@ -1167,9 +1177,6 @@ footer {
   text-align: left;
 }
 
-.container-tables {
-  padding-left: 150px;
-}
 
 .square-4 {
   position: relative;
