@@ -678,6 +678,29 @@ footer {
 }
 
 
+.group1{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.group2{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.group3{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.group4{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.group5{
+  
+}
 
 .card-group1 {
   display: inline-flex;
