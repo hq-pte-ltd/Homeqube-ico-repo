@@ -688,20 +688,13 @@ footer {
   justify-content: space-evenly;
 }
 
-.group3{
-  display: flex;
-  justify-content: space-evenly;
-}
+
 
 .group4{
   display: flex;
   justify-content: space-evenly;
 }
 
-.group5{
-  display: flex;
-  justify-content: space-evenly;
-}
 
 .card-group1 {
   display: inline-flex;
@@ -1624,6 +1617,10 @@ footer {
   position: relative;
   top: -20px;
   right: 30px;
+}
+
+.modal-dialog{
+  max-width: 700px;
 }
 
 /* transaction style  */
