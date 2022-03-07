@@ -612,6 +612,36 @@ footer {
   text-align: left;
   color: #5a5a5a;
 }
+@media (min-width: 370px) {
+  .intro-eco-2 {
+    margin-left: none;
+  }
+}
+@media (min-width: 576px) {
+  .intro-eco-2 {
+    margin-left: none;
+  }
+}
+@media (min-width: 768px) {
+  .intro-eco-2 {
+    margin-left: none;
+  }
+}
+@media (min-width: 992px) {
+  .intro-eco-2 {
+    margin-left: 0.5em;
+  }
+}
+@media (min-width: 1200px) {
+  .intro-eco-2 {
+    margin-left: 1.4em;
+  }
+}
+@media (min-width: 1400px) {
+  .intro-eco-2 {
+    margin-left: 3em;
+  }
+}
 
 .span-eco-2 {
   font-style: normal;
@@ -2204,10 +2234,10 @@ html {
   }
 
   /* Card*/
-  .card{
+  /* .card{
     width: 15em !important;
     height: auto;
-  }
+  } */
   .pipe-card{
   padding-top: 0;
   left: 0;
@@ -2240,10 +2270,10 @@ html {
     padding-bottom: 7em;
     }
     /* Card*/
-  .card{
+  /* .card{
     width: 15em !important;
     height: auto;
-  }
+  } */
   .pipe-card{
   padding-top: 0;
   left: 0;
@@ -2277,10 +2307,10 @@ html {
     padding-bottom: 7em;
     }
     /* Card*/
-  .card{
+  /* .card{
     width: 18em !important;
     height: auto;
-  }
+  } */
   .pipe-card{
   padding-top: 0;
   left: 0;
@@ -2333,11 +2363,11 @@ html {
     padding-top: 2em;
     padding-bottom: 7em;
     }
-  /* Card*/
-  .card{
-    width: 18em !important;
-    height: auto;
-  }
+    /* Card
+    .card{
+      width: 18em !important;
+      height: auto;
+    } */
   .pipe-card{
   padding-top: 0;
   left: 0;
@@ -2349,8 +2379,37 @@ html {
 .showcase-intro,  .showcase-intro-lead{
   text-align: center;
 }
-  
-  
+@media (max-width: 1200px) {
+  .card{
+    width: 13em !important;
+    height: auto;
+  }
+}
+@media (min-width: 360px) {
+  .card{
+    width: 18em !important;
+    height: auto;
+  }
+}
+@media (min-width: 768px) {
+  .card{
+    width: 13em !important;
+    height: auto;
+  }
+}
+@media (min-width: 992px) {
+
+  .card{
+    width: 18em !important;
+    height: auto;
+  }
+}
+@media (min-width: 1200px) {
+  .card{
+    width: 17em !important;
+    height: auto;
+  }
+}  
   
   
 }
