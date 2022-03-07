@@ -2215,7 +2215,6 @@ html {
   font-style: normal;
   font-weight: 500;
 
-
   color: #5a5a5a;
 }
 
@@ -2560,7 +2559,6 @@ html {
   .faqs-text{
     font-size: 1em;
     line-height: 1.25em;
-    padding-bottom: 1em;
   }
 }
 @media (min-width: 576px) {
@@ -2571,7 +2569,7 @@ html {
   .faqs-text{
     font-size: 1em;
     line-height: 1.25em;
-    padding-bottom: 1em;
+    padding-bottom: 5px;
   }
 }
 
@@ -2583,7 +2581,7 @@ html {
   .faqs-text{
     font-size: 1.5em;
     line-height: 1.25em;
-    padding-bottom: 1em;
+    padding-bottom: 8px;
   }
 }
 
@@ -2595,7 +2593,7 @@ html {
   .faqs-text{
     font-size: 1.75em;
     line-height: 1.50em;
-    padding-bottom: 1.25em;
+    padding-bottom: 10px;
   }
 }
 @media (min-width: 1200px) {
@@ -2606,7 +2604,7 @@ html {
   .faqs-text{
     font-size: 28px;
     line-height: 36px;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
   }
 }
 /* media for carbon */
