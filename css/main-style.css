@@ -699,7 +699,8 @@ footer {
 }
 
 .group5{
-  
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .card-group1 {
