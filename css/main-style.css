@@ -2147,9 +2147,9 @@ html {
 .carbon-text {
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
-  font-weight: 500;
-
-
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
   color: #5a5a5a;
 }
 
@@ -2603,8 +2603,8 @@ html {
     line-height: 36px;
   }
   .carbon-text{
-    font-size: 28px;
-    line-height: 41px;
+    font-size: 18px;
+    line-height: 23px;
   }
 }
 
