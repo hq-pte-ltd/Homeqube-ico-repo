@@ -1460,8 +1460,6 @@ footer {
   font-weight: normal;
   font-size: 18px;
   line-height: 23px;
-  display: flex;
-  justify-content: start;
 }
 
 
@@ -1488,7 +1486,7 @@ footer {
 
 .img3 {
   display: flex;
-  justify-content: start;
+  justify-content: center;
 }
 
 .square-3 {
@@ -1649,9 +1647,9 @@ footer {
   right: 30px;
 }
 
-.modal-dialog{
-  max-width: 700px;
-}
+
+
+
 
 /* transaction style  */
 .bg-icon-transaction {
