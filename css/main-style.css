@@ -1,4 +1,11 @@
 /* fix design  */
+.a-link{
+  color: rgb(215, 215, 216);
+  text-decoration: none;
+}
+.a-link:hover{
+  color: #ffffff;
+}
 .navbar-expand-lg {
   background-color: #2f2f2f;
   left: 0px;
@@ -448,6 +455,9 @@ footer {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #d7d7d8;
+}
+.button2:hover{
+  color: #ffffff;
 }
 
 .button3 {
