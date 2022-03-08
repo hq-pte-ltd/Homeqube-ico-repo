@@ -2689,8 +2689,12 @@ html,body{
    
   }
   .intro-sentence-homeapp{
-    margin: auto !important;
-    
+    margin: 0 auto !important;
+    align-content: center;
+  }
+
+  .group3 img{
+    width: 100%;
   }
   
 }
