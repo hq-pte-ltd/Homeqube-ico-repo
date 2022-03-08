@@ -128,7 +128,7 @@
   width: 560px;
   height: 315px;
 }
-@media (min-width: 370px) {
+@media (min-width: 310px) {
   .yt-vid{
     width: 250px;
     height: 141px;
@@ -299,7 +299,7 @@
   color: #d7d7d8;
 }
 /* media for footbar */
-@media (min-width: 370px) {
+@media (min-width: 310px) {
   .footbar-text{
     font-size: 1em;
     line-height: 1em;
@@ -612,7 +612,7 @@ footer {
   text-align: left;
   color: #5a5a5a;
 }
-@media (min-width: 370px) {
+@media (min-width: 310px) {
   .intro-eco-2 {
     margin-left: none;
   }
@@ -833,7 +833,7 @@ footer {
     transform: rotate(360deg);
   }
 }
-@media (min-width: 370px) {
+@media (min-width: 310px) {
   .box-animation-1{
     width: 5.5em;
     height: 6.5em;
@@ -968,7 +968,7 @@ footer {
   }
 }
 
-@media (min-width: 370px) {
+@media (min-width: 310px) {
   .right-box-animation-1{
     width: 5.5em;
     height: 6.5em;
@@ -1112,7 +1112,7 @@ footer {
     transform: rotate(360deg);
   }
 }
-@media (min-width: 370px) {
+@media (min-width: 310px) {
   .left-box-2nd{
     width: 159.14px;
     height: 173.72px;
@@ -1272,7 +1272,7 @@ footer {
 .footbar-button-home1:hover {
   color: #ffffff;
 }
-@media (min-width: 370px) {
+@media (min-width: 310px) {
   .footbar-button-home1{
     font-size: 1.3em;
     line-height: 24px;
@@ -2548,7 +2548,7 @@ html {
 }
 
 /* media for faqs */
-@media (min-width: 370px) {
+@media (min-width: 310px) {
   .faqs-header{
     font-size: 1em;
     line-height: 1.25em;
@@ -2605,7 +2605,7 @@ html {
   }
 }
 /* media for carbon */
-@media (min-width: 370px) {
+@media (min-width: 310px) {
   .carbon-content-header{
     font-size: 1em;
     line-height: 1.25em;
@@ -2664,4 +2664,61 @@ html {
 
 html,body{
   overflow-x: hidden;
+}
+.content-info{
+  display: flex;
+}
+@media (max-width: 310px) {
+  .content-info{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .intro-sentence-homeapp{
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 576px) {
+  .content-info{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .intro-sentence-homeapp{
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .content-info{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .intro-sentence-homeapp{
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .content-info{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .intro-sentence-homeapp{
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 1200px) {
+  .content-info{
+    display: flex;
+  }
+}
+@media (min-width: 1200px) {
+  .intro-sentence-homeapp{
+    margin-top: 1rem;
+  }
+}
+@media (min-width: 1400px) {
+  .intro-sentence-homeapp{
+    padding-top: 3rem;
+    margin-top: 1rem;
+  }
 }
