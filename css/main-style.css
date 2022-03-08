@@ -1335,6 +1335,11 @@ footer {
   display: flex;
   text-align: left;
   justify-content: center;
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  
 }
 
 
@@ -2686,6 +2691,9 @@ html,body{
   .intro-sentence-homeapp{
     margin-top: 1rem;
   }
+  .modal-header{
+    margin: auto !important;
+  }
 }
 @media (max-width: 576px) {
   .content-info{
@@ -2694,6 +2702,9 @@ html,body{
   }
   .intro-sentence-homeapp{
     margin-top: 1rem;
+  }
+  .modal-header{
+    margin: auto !important;
   }
 }
 
@@ -2704,6 +2715,9 @@ html,body{
   }
   .intro-sentence-homeapp{
     margin-top: 1rem;
+  }
+  .modal-header{
+    margin: auto !important;
   }
 }
 
