@@ -2413,6 +2413,8 @@ html {
     width: 18em !important;
     height: auto;
   }
+  
+ 
 }
 @media (min-width: 768px) {
   .card{
@@ -2437,9 +2439,26 @@ html {
   
 }
 
-@media only screen and (max-width: 900px) and (min-width: 400px){
+@media only screen and (max-width: 900px) and (min-width: 200px){
   .cards-section .container .card{
      width: 100% !important;
+  }
+  .flex-modal-class{
+    flex-direction: column-reverse !important;
+    
+  }
+  .flex-modal-class img{
+    
+    width: 100% !important;
+    
+  }
+  .flex-img-div{
+    padding: 0 !important;
+  }
+ 
+  .flex-text-div{
+    width: 100% !important;
+    padding: 0 !important;
   }
   
    
