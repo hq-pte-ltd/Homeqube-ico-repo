@@ -2132,7 +2132,7 @@ html {
 
 .people-boxes {
   max-width: 515px;
-  height: 160px;
+  height: 100%;
 }
 
 .people-footbar-button-people {
