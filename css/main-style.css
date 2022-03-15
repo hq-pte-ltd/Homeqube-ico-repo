@@ -2741,9 +2741,6 @@ html,body{
     display: flex;
     flex-wrap: wrap;
   }
-  .intro-sentence-homeapp{
-    margin-top: 1rem;
-  }
   .modal-header{
     margin: auto !important;
   }
@@ -2754,23 +2751,115 @@ html,body{
     display: flex;
     flex-wrap: wrap;
   }
-  .intro-sentence-homeapp{
-    margin-top: 1rem;
-  }
 }
 @media (max-width: 1200px) {
   .content-info{
     display: flex;
   }
 }
+
+@media (min-width: 310px) {
+  .intro-sentence-homeapp{
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+  .ai-content{
+    display: flex!important;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media (min-width: 576px) {
+  .intro-sentence-homeapp{
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+  .ai-content{
+    display: flex!important;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media (min-width: 768px) {
+  .intro-sentence-homeapp{
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+  .ai-content{
+    display: flex!important;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media (min-width: 992px) {
+  .intro-sentence-homeapp{
+    margin-left: 1rem;
+  }
+  .ai-content{
+    align-items: center;
+    flex-direction: row;
+    display: flex !important;
+  }
+  
+}
 @media (min-width: 1200px) {
   .intro-sentence-homeapp{
     margin-top: 1rem;
+    margin-left: 1rem;
+  }
+}
+@media (min-width: 310px) {
+
+}
+@media (min-width: 576px) {
+
+}
+@media (min-width: 768px) {
+
+}
+@media (min-width: 992px) {
+  .pipe-card-header{
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+  }
+  .pipe-card-lead{
+    padding-left: 1rem;
+  }
+  .pipe-card-buttons-class{
+    padding-left: 0.75rem;
+  }
+  .card-cointaner{
+    margin-left: 3rem;
+  }
+  
+}
+@media (min-width: 1200px) {
+  .pipe-card-header{
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+  }
+  .pipe-card-lead{
+    padding-left: 1rem;
+  }
+  .pipe-card-buttons-class{
+    padding-left: 0.75rem;
+  }
+  .card-cointaner{
+    margin-left: 3rem;
   }
 }
 @media (min-width: 1400px) {
-  .intro-sentence-homeapp{
-    padding-top: 3rem;
-    margin-top: 1rem;
+  .pipe-card-header{
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+  }
+  .pipe-card-lead{
+    padding-left: 1rem;
+  }
+  .pipe-card-buttons-class{
+    padding-left: 0.75rem;
+  }
+  .card-cointaner{
+    margin-left: 3rem;
   }
 }
