@@ -2864,3 +2864,26 @@ html,body{
     margin-left: 3rem;
   }
 }
+
+.carousel-item img{
+  width: 42% !important;
+  margin: auto !important;
+}
+.carousel-item p{
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+.carousel-item h5{
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
