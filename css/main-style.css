@@ -134,6 +134,7 @@
 .yt-vid{
   width: 560px;
   height: 315px;
+  background-color: #000000;
 }
 @media (min-width: 310px) {
   .yt-vid{
