@@ -747,6 +747,9 @@ footer {
 .card-img-top {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  width: 100%;
+  object-fit: cover;
+  height: 10vw;
 }
 
 .carousel-title {
@@ -1351,6 +1354,7 @@ footer {
   font-size: 18px;
   
 }
+
 
 
 
