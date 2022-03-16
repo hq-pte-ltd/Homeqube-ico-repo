@@ -2730,9 +2730,9 @@ html {
   }
 }
 
-html,body{
+/* html,body{
   overflow-x: hidden;
-}
+} */
 .content-info{
   display: flex;
 }
