@@ -98,7 +98,22 @@
   color: #d7d7d8;
   font-family: "Rajdhani", sans-serif;
 }
+.nav-item-Contacts{
+  left: 75.17%;
+  right: 15.36%;
+  top: 32%;
+  bottom: 50%;
 
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #d7d7d8;
+  font-family: "Rajdhani", sans-serif;
+}
 .navbar-toggler {
   background-color: #d7d7d8;
 }
