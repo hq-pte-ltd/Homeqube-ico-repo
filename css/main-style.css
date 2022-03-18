@@ -2955,3 +2955,15 @@ html {
   padding: 0;
   width: 50% !important;
 }
+.pipeline-links{
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 23px;
+  color: #5a5a5a;
+  padding-left: 2px;
+}
+.pipeline-links:hover{
+  color: #5a5a5a;
+}
