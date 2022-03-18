@@ -146,6 +146,9 @@
 .container-content{
   display: flex;
 }
+.contaner-contact{
+  width: 100%;
+}
 .yt-vid{
   width: 560px;
   height: 315px;
@@ -251,6 +254,16 @@
   text-transform: uppercase;
   color: #000000;
   padding-top: 180px;
+  padding-left: 20px;
+}
+.showcase-intro-contact {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 41px;
+  text-transform: uppercase;
+  color: #000000;
   padding-left: 20px;
 }
 
