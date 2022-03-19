@@ -436,8 +436,8 @@ footer {
   margin-top: auto;
 }
 .footer-icon{
-  width: 1.3rem;
-  height: 1.3rem;
+  width: 1rem;
+  height: 1rem;
 }
 .flink-icon{
   color: dark;
@@ -445,12 +445,12 @@ footer {
 }
 @media (min-width: 768px) {
   .footer-icon{
-    margin-top: 5rem;
+    margin-top: 1rem;
   }
 }
 @media (min-width: 992px) {
   .footer-icon{
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
 }
 
@@ -2991,7 +2991,7 @@ html {
 .people-title1{
   font-family: "Rajdhani", sans-serif;
   font-size: 24px;
-=======
+}
 .pipeline-links{
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
@@ -3000,6 +3000,7 @@ html {
   line-height: 23px;
   color: #5a5a5a;
   padding-left: 2px;
+  text-decoration: underline;
 }
 .pipeline-links:hover{
   color: #5a5a5a;
@@ -3041,24 +3042,25 @@ padding-top: .5em;
   width: 400px;
   height: 4px;
 }
-
-/* .container-fluid{
-  padding-left: 10em !important;
-  padding-top: 5em!important;
-} */
-
-/* .row{
-  padding-top: 8em !important;
-  padding-left: 3em !important;
-} */
-.img{
+.under-dev-img{
   padding-top: 16em !important;
   padding-right: 5em !important;
   padding-bottom: 5em !important;
  
 }
+
+/* .container-fluid{
+  padding-left: 10em !important;
+  padding-top: 5em!important;
+} 
+
+.row{
+  padding-top: 8em !important;
+  padding-left: 3em !important;
+} 
+
 @media only screen and (max-width: 1200px) and (min-width: 200px) {
-  .row{
+  .under-dev-row{
       flex-direction: column !important;
       justify-content: center;
       align-items: center;
@@ -3068,7 +3070,7 @@ padding-top: .5em;
       padding-bottom: 0 !important;
   }
 
-  .img{
+  .under-dev-img{
       padding-top: 0 !important;
       padding-left: 0 !important;
       padding-bottom: 0 !important;
@@ -3089,14 +3091,14 @@ padding-top: .5em;
   }
   /* .container-fluid{
       justify-content: center;
-  } */
+  } 
   .footbar-btn{
       justify-content: center !important;
       margin: 0 auto !important;
       text-align: center !important;
   }
   
-}
+} */
 
 @media only screen and (max-width: 425px){
  
@@ -3113,4 +3115,45 @@ padding-top: .5em;
   font-weight: bold;
   font-size: 19px;
   line-height: 36px;
+}
+.footer-text-2{
+  font-family: Rajdhani;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+@media (min-width: 310px) {
+  .footer-text-2{
+    text-align: center;
+  }
+}
+@media (min-width: 576px) {
+  .footer-text-2{
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .footer-text-2{
+    text-align: center;
+  }
+}
+@media (min-width: 992px) {
+  .footer-text-2{
+    text-align: center;
+  }
+}
+@media (min-width: 1200px) {
+  .footer-text-2{
+    padding-left: 77px;
+    text-align: left;
+  }
+}
+@media (min-width: 1400px) {
+  .footer-text-2{
+    padding-left: 77px;
+    text-align: left;
+  }
 }
