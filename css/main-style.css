@@ -2950,27 +2950,35 @@ html {
   }
 }
 
-.carousel-item img{
-  width: 42% !important;
+ .carousel-item img{
+  height: 50vh !important;
   margin: auto !important;
-}
+  opacity: 0.3 !important;
+} 
 .carousel-item p{
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 18px;
-
+  width: 466px !important;
   color: #ffffff;
+  margin: auto;
 }
 .carousel-item h5{
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
-  line-height: 18px;
+  font-size: 32px;
+  line-height: 41px;
 
   color: #ffffff;
+}
+.carousel-item{
+  background-color: #4D4D4D;
+}
+.item-last{
+  background-color: #000000 !important;
 }
 
 .showcase2{
@@ -2991,7 +2999,7 @@ html {
 .people-title1{
   font-family: "Rajdhani", sans-serif;
   font-size: 24px;
-=======
+}
 .pipeline-links{
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
@@ -3009,7 +3017,7 @@ html {
 body{
 
   /* background-image: linear-gradient(to right, rgba(59, 59, 59, 0.6), rgba(182, 188, 194, 0.6)), url('/img/Frame.png');
-  background-size: cover, contain;
+    background-size: cover, contain
   background-position: center, right bottom;
   background-repeat: no-repeat, no-repeat; */
 
@@ -3113,4 +3121,24 @@ padding-top: .5em;
   font-weight: bold;
   font-size: 19px;
   line-height: 36px;
+}
+
+.carousel-caption{
+    color: black !important;
+    text-align: center !important;
+    top: 30% !important;
+    transform: translateY(-50%) !important;
+    bottom: 50% !important;
+}
+
+#carouselExampleCaptions > .carousel-indicators [data-bs-target] {
+
+  height: 10px !important;
+  width: 10px !important;
+  background-color: #9d9d9d;
+
+
+}
+#carouselExampleCaptions > .carousel-indicators > .active {
+  background-color: white;
 }
