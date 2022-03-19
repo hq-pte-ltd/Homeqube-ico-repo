@@ -6,6 +6,14 @@
 .a-link:hover{
   color: #ffffff;
 }
+
+a{
+  color: rgb(215, 215, 216);
+  text-decoration: none;
+}
+a:hover{
+  color: #ffffff;
+}
 .navbar-expand-lg {
   background-color: #2f2f2f;
   left: 0px;
@@ -65,6 +73,24 @@
 }
 
 .nav-item-People {
+  left: 62.84%;
+  right: 27.68%;
+  top: 32%;
+  bottom: 50%;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #d7d7d8;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.nav-item-Resource {
   left: 62.84%;
   right: 27.68%;
   top: 32%;
@@ -1402,6 +1428,7 @@ footer {
   font-size: 18px;
   
 }
+
 
 
 
@@ -2956,11 +2983,133 @@ html {
   width: 50% !important;
 }
 
-.container-people{
-
-}
-
 .people-title1{
   font-family: "Rajdhani", sans-serif;
   font-size: 24px;
+=======
+.pipeline-links{
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 23px;
+  color: #5a5a5a;
+  padding-left: 2px;
+}
+.pipeline-links:hover{
+  color: #5a5a5a;
+}
+
+/* Resource Style */
+body{
+
+  /* background-image: linear-gradient(to right, rgba(59, 59, 59, 0.6), rgba(182, 188, 194, 0.6)), url('/img/Frame.png');
+  background-size: cover, contain;
+  background-position: center, right bottom;
+  background-repeat: no-repeat, no-repeat; */
+
+ background-color: #ffffff !important;
+}
+
+.text3{
+font-family: 'Rajdhani', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 51px;
+
+text-transform: uppercase;
+
+color: #2F2F2F;
+padding-top: 5em !important;
+}
+.one-pager-text2{
+font-family: 'Rajdhani';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+color: #2F2F2F;
+padding-top: .5em;
+}
+.rectangle{
+  background-color: #2F2F2F;
+  width: 400px;
+  height: 4px;
+}
+
+.container-fluid{
+  padding-left: 10em !important;
+  padding-top: 5em!important;
+}
+.footbar-button-home1{
+background: linear-gradient(44.73deg, #7c7c7c 11.32%, #4e4e4e 92.96%);
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 40px;
+width: 165px;
+height: 50px;
+font-family: "Rajdhani", sans-serif;
+font-style: normal;
+font-weight: 700 !important;
+font-size: 24px;
+line-height: 24px;
+letter-spacing: 0.15px;
+text-transform: uppercase;
+text-align: center;
+
+color: #ffffff !important;
+
+}
+.row{
+  padding-top: 8em !important;
+  padding-left: 3em !important;
+}
+.img{
+  padding-top: 16em !important;
+  padding-right: 5em !important;
+  padding-bottom: 5em !important;
+ 
+}
+@media only screen and (max-width: 1200px) and (min-width: 200px) {
+  .row{
+      flex-direction: column !important;
+      justify-content: center;
+      align-items: center;
+      padding-top: 3em !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      padding-bottom: 0 !important;
+  }
+
+  .img{
+      padding-top: 0 !important;
+      padding-left: 0 !important;
+      padding-bottom: 0 !important;
+      padding-right: 0 !important;
+      width: 100%;
+  }
+  .text3{
+      padding-top: 0 !important;
+      text-align: center;
+  }
+  .text2{
+      padding-top: 0 !important;
+      text-align: center;
+  }
+  .rectangle{
+      
+      display: none;
+  }
+  .container-fluid{
+      justify-content: center;
+  }
+  .footbar-btn{
+      justify-content: center !important;
+      margin: 0 auto !important;
+      text-align: center !important;
+  }
+  
+}
+
+@media only screen and (max-width: 425px){
+ 
 }
