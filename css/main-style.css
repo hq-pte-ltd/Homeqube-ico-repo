@@ -2982,6 +2982,11 @@ html {
   padding: 0;
   width: 50% !important;
 }
+
+.people-title1{
+  font-family: "Rajdhani", sans-serif;
+  font-size: 24px;
+=======
 .pipeline-links{
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
