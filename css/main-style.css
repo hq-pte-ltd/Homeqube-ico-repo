@@ -3145,7 +3145,7 @@ padding-top: .5em;
   background-color: white;
 }
 .footer-text-2{
-  font-family: Rajdhani;
+  font-family: "Rajdhani", sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
@@ -3184,4 +3184,14 @@ padding-top: .5em;
     padding-left: 77px;
     text-align: left;
   }
+}
+
+.textarea-text{
+  width: 634px;
+}
+
+.details{
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
 }
