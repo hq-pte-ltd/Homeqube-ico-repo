@@ -3123,6 +3123,7 @@ padding-top: .5em;
   line-height: 36px;
 }
 
+
 .carousel-caption{
     color: black !important;
     text-align: center !important;
@@ -3142,3 +3143,4 @@ padding-top: .5em;
 #carouselExampleCaptions > .carousel-indicators > .active {
   background-color: white;
 }
+
