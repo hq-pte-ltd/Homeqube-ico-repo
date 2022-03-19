@@ -280,7 +280,7 @@ a:hover{
   line-height: 41px;
   text-transform: uppercase;
   color: #000000;
-  padding-top: 180px;
+  padding-top: 150px;
   padding-left: 20px;
 }
 .showcase-intro-contact {
@@ -1820,6 +1820,10 @@ footer {
   left: 130px;
   width: 600px;
 }
+.q-tokenomics-bg-icon-3 {
+  position: relative;
+  width: 600px;
+}
 
 .q-tokenomics-caption-1 {
   font-family: "Rajdhani", sans-serif;
@@ -3055,10 +3059,10 @@ text-align: center;
 color: #ffffff !important;
 
 }
-.row{
+/* .row{
   padding-top: 8em !important;
   padding-left: 3em !important;
-}
+} */
 .img{
   padding-top: 16em !important;
   padding-right: 5em !important;
@@ -3114,4 +3118,11 @@ color: #ffffff !important;
 }
 .dropdown-btn{
   align-items: center;
+}
+.table-bottom-text{
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 36px;
 }
