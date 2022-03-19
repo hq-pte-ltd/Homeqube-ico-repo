@@ -2991,7 +2991,7 @@ html {
 .people-title1{
   font-family: "Rajdhani", sans-serif;
   font-size: 24px;
-=======
+}
 .pipeline-links{
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
@@ -3113,4 +3113,11 @@ padding-top: .5em;
   font-weight: bold;
   font-size: 19px;
   line-height: 36px;
+}
+
+/* Contacts style */
+.details{
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
 }
