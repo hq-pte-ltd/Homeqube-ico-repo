@@ -361,6 +361,25 @@ a:hover{
 
   color: #d7d7d8;
 }
+.contact-send-button {
+  background: linear-gradient(44.73deg, #7c7c7c 11.32%, #4e4e4e 92.96%);
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  width: 100px;
+  height: 35px;;
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
+  right: 32rem;
+  position: absolute;
+  margin-top: 10px;
+
+  color: #d7d7d8;
+}
 /* media for footbar */
 @media (min-width: 310px) {
   .footbar-text{
