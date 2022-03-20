@@ -684,6 +684,8 @@ footer {
 
 .content-eco1-bg {
   background-color: #fff;
+  padding-top: 75px !important;
+  padding-bottom: 75px !important;
 }
 
 .content-eco-bg {
@@ -835,6 +837,7 @@ footer {
   font-size: 28px;
   line-height: 35.73px;
   color: #5a5a5a;
+  text-align: left;
 }
 
 .slide_items {
@@ -2994,7 +2997,7 @@ html {
 .img-poweredcon{
   margin: auto !important;
   padding: 0;
-  width: 50% !important;
+  width: 85% !important;
 }
 
 .people-title1{
