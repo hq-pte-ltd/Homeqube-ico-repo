@@ -4,16 +4,16 @@
   text-decoration: none;
 }
 .a-link:hover {
-  color: #ffffff;
+  color: rgb(215, 215, 216);
 }
 
-a {
+/* a {
   color: rgb(215, 215, 216);
   text-decoration: none;
 }
 a:hover {
   color: #ffffff;
-}
+} */
 .navbar-expand-lg {
   background-color: #2f2f2f;
   left: 0px;
