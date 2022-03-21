@@ -151,8 +151,28 @@
 }
 @media (min-width: 310px) {
   .yt-vid {
+    width: 200px;
+    height: 130px;
+    margin-top: 1em;
+  }
+  .container-content {
+    flex-direction: column;
+  }
+}
+@media (min-width: 390px) {
+  .yt-vid {
     width: 250px;
-    height: 141px;
+    height: 130px;
+    margin-top: 1em;
+  }
+  .container-content {
+    flex-direction: column;
+  }
+}
+@media (min-width: 471px) {
+  .yt-vid {
+    width: 300px;
+    height: 150px;
     margin-top: 1em;
   }
   .container-content {
@@ -161,8 +181,8 @@
 }
 @media (min-width: 576px) {
   .yt-vid {
-    width: 340px;
-    height: 191px;
+    width: 500px;
+    height: 300px;
   }
   .container-content {
     flex-direction: column;
@@ -237,7 +257,6 @@
   text-transform: uppercase;
   color: #000000;
   padding-top: 150px;
-  padding-left: 20px;
 }
 .showcase-intro-contact {
   font-style: normal;
@@ -246,7 +265,6 @@
   line-height: 41px;
   text-transform: uppercase;
   color: #000000;
-  padding-left: 20px;
 }
 .showcase-intro-lead {
   font-style: normal;
@@ -254,7 +272,14 @@
   font-size: 18px;
   line-height: 23px;
   color: #5a5a5a;
-  padding-left: 20px;
+}
+.showcase-intro-lead-carbon {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #5a5a5a;
+  text-align: left;
 }
 .showcase-intro-2 {
   font-style: normal;
@@ -785,6 +810,23 @@ footer {
   }
 }
 @media (min-width: 310px) {
+  .box-animation-1 {
+    width: 5.5em;
+    height: 6.5em;
+  }
+  .box-animation-2 {
+    width: 35.8px;
+    height: 38.37px;
+    margin-left: 16em;
+  }
+  .box-animation-3 {
+    width: 69.9px;
+    height: 70.69px;
+    margin-top: 120px;
+    margin-left: 14em;
+  }
+}
+@media (min-width: 360px) {
   .box-animation-1 {
     width: 5.5em;
     height: 6.5em;
@@ -1517,7 +1559,6 @@ footer {
   font-size: 18px;
   line-height: 23px;
   color: #5a5a5a;
-  padding-left: 20px;
 }
 .q-tokenomics-intro-content {
   font-style: normal;
@@ -2008,6 +2049,11 @@ footer {
   .showcase-intro-lead {
     text-align: center;
   }
+  @media (min-width: 310px) {
+    .showcase-intro-lead {
+      text-align: left;
+    }
+  }
   @media (max-width: 1200px) {
     .card {
       width: 13em !important;
@@ -2341,7 +2387,6 @@ footer {
 }
 @media (min-width: 310px) {
   .intro-sentence-homeapp {
-    margin-left: 1rem;
     margin-top: 1rem;
   }
   .ai-content {
@@ -2639,6 +2684,14 @@ body {
   margin-top: 22px;
 }
 @media (min-width: 310px) {
+  .button-contact-img {
+    width: 6rem;
+  }
+  .button-contact {
+    right: 1%;
+  }
+}
+@media (min-width: 360px) {
   .button-contact-img {
     width: 6rem;
   }
