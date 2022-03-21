@@ -2667,3 +2667,42 @@ body {
   font-style: normal;
   text-transform: uppercase;
 }
+
+.faqs-th-position{
+  text-align: start;
+}
+
+.faq-table-content-1-1 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+
+}
+
+.faq-table-content-1 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+
+}
+
+.faq-table-bottom-text {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+
+  font-size: 19px;
+  line-height: 36px;
+}
+
+.faqs-image-1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
