@@ -102,17 +102,17 @@
 
     <section class="p-5">
         <div class="container contacts">
-            <form>
+            <form method="post">
                 <div class="row">
                   <div class="col-md-3 offset-md-3">
                     <span class="details">First Name&nbsp;<span style="color: red;">*</span></span>
                             <br>
-                    <input type="text" class="form-control form-control-lg" required>
+                    <input type="text" id="firstname" class="form-control form-control-lg" required>
                   </div>
                   <div class="col-md-3">
                     <span class="details">Last Name&nbsp;<span style="color: red;">*</span></span>
                             <br>
-                    <input type="text" class="form-control form-control-lg" required>
+                    <input type="text" id="lastname" class="form-control form-control-lg" required>
                   </div>
                 </div>
 
@@ -120,12 +120,12 @@
                     <div class="col-md-3 offset-md-3">
                       <span class="details">Email Address&nbsp;<span style="color: red;">*</span></span>
                               <br>
-                      <input type="email" class="form-control form-control-lg" required>
+                      <input type="email" id="fromEmail" class="form-control form-control-lg" required>
                     </div>
                     <div class="col-md-3">
                       <span class="details">Phone Number&nbsp;</span>
                               <br>
-                      <input type="text" class="form-control form-control-lg" required>
+                      <input type="text" id="PhoneNumber" class="form-control form-control-lg" required>
                     </div>
                   </div>
 
@@ -133,12 +133,12 @@
                     <div class="col-md-3 offset-md-3">
                       <span class="details">Company</span>
                               <br>
-                      <input type="text" class="form-control form-control-lg" required>
+                      <input type="text" id="company" class="form-control form-control-lg" required>
                     </div>
                     <div class="col-md-3">
                       <span class="details">Business Type</span>
                               <br>
-                      <input type="text" class="form-control form-control-lg" required>
+                      <input type="text" id="businessType" class="form-control form-control-lg" required>
                     </div>
                   </div>
 
@@ -163,18 +163,18 @@
                 </div> -->
                 <div class="col link d-flex align-items justify-content-center">
                     <div class="button-container">
-                        <button class="contact-send-button btn btn-lg rounded-pill" type="submit">submit</button>
+                        <button class="contact-send-button btn btn-lg rounded-pill" type="button" onclick="">submit</button>
                     </div>
                 </div>
               </form>
-         
+              
         </div>
     </section>
     <a href="contact.html" class="button-contact">
         <img src="img/contact-button.svg" class="button-contact-img">
     </a>
     <!-- End of main content  -->
-
+    
     <section class="footbar text-dark">
         <div class="container">
             <div class="d-md-flex justify-content-between align-items-center">
@@ -239,6 +239,24 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="https://smtpjs.com/v3/smtp.js">  
+    </script>
+    <script type="text/javascript">
+        function sendEmail(){
+            Email.send({
+            Host : "smtp.office365.com",
+            Username : "about@homeqube.com",
+            Password : " Love2eat!!",
+            Port: 587,
+            To : 'about@homeqube.com',
+            From : "chedrick.follero.rowy@gmail.com",
+            Subject : "This is the subject",
+            Body : "And this is the body"
+            }).then(
+                message => alert(message)
+                );
+        }
     </script>
 </body>
 
