@@ -273,6 +273,14 @@
   line-height: 23px;
   color: #5a5a5a;
 }
+.showcase-intro-lead-carbon {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #5a5a5a;
+  text-align: left;
+}
 .showcase-intro-2 {
   font-style: normal;
   font-weight: bold;
