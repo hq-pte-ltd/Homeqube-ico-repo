@@ -118,7 +118,7 @@
     border: 1px solid transparent;
 }
 .slick-arrow.slick-hidden {
-    display: none;
+    display: none !important;
 }
 .slick-disabled{
     background-color: rgb(214, 210, 210);
