@@ -265,7 +265,6 @@
   line-height: 41px;
   text-transform: uppercase;
   color: #000000;
-  padding-left: 20px;
 }
 .showcase-intro-lead {
   font-style: normal;
@@ -1552,7 +1551,6 @@ footer {
   font-size: 18px;
   line-height: 23px;
   color: #5a5a5a;
-  padding-left: 20px;
 }
 .q-tokenomics-intro-content {
   font-style: normal;
