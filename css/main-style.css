@@ -3,7 +3,7 @@
   font-family: "Rajdhani", sans-serif;
 }
 .a-link {
-  color: rgb(215, 215, 216);
+  color: rgb(215, 215, 216) !important;
   text-decoration: none;
 }
 .a-link:hover {
@@ -1839,6 +1839,7 @@ footer {
   color: #5a5a5a;
   font-weight: bold;
   padding-top: 20px;
+  text-align: left;
 }
 .carbon-text {
   font-style: normal;
@@ -1846,6 +1847,7 @@ footer {
   font-size: 18px;
   line-height: 23px;
   color: #5a5a5a;
+  text-align: left;
 }
 /* FAQ Styles */
 .faq-rectangle {
@@ -2641,7 +2643,7 @@ body {
     width: 6rem;
   }
   .button-contact {
-    right: 10%;
+    right: 1%;
   }
 }
 @media (min-width: 576px) {
@@ -2649,17 +2651,17 @@ body {
     width: 8rem;
   }
   .button-contact {
-    right: 15%;
+    right: 1%;
   }
 }
 @media (min-width: 768px) {
   .button-contact {
-    right: 12%;
+    right: 1%;
   }
 }
 @media (min-width: 2190px) {
   .button-contact {
-    right: 31%;
+    right: 1%;
   }
 }
 .details {
@@ -2705,4 +2707,11 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+.dropdown-menu{
+  background-color: #2f2f2f;
+  text-align: center;
+}
+.dropdown-item{
+  color: #fff;
 }
