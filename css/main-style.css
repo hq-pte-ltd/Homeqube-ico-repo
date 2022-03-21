@@ -2715,3 +2715,9 @@ body {
 .dropdown-item{
   color: #fff;
 }
+.people-title {
+  font-family: Rajdhani;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 32px;
+}
