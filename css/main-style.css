@@ -2379,7 +2379,6 @@ footer {
 }
 @media (min-width: 310px) {
   .intro-sentence-homeapp {
-    margin-left: 1rem;
     margin-top: 1rem;
   }
   .ai-content {
