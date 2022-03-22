@@ -117,17 +117,17 @@
 
     <section class="p-5">
         <div class="container contacts">
-            <form>
+            <form id="form-contact">
                 <div class="row">
                   <div class="col-md-3 offset-md-3">
                     <span class="details">First Name&nbsp;<span style="color: red;">*</span></span>
                             <br>
-                    <input type="text" id="firstname" class="form-control form-control-lg" required>
+                    <input type="text" id="firstname" class="form-control form-control-lg" required value=" ">
                   </div>
                   <div class="col-md-3">
                     <span class="details">Last Name&nbsp;<span style="color: red;">*</span></span>
                             <br>
-                    <input type="text" id="lastname" class="form-control form-control-lg" required>
+                    <input type="text" id="lastname" class="form-control form-control-lg" required value=" ">
                   </div>
                 </div>
 
@@ -135,12 +135,12 @@
                     <div class="col-md-3 offset-md-3">
                       <span class="details">Email Address&nbsp;<span style="color: red;">*</span></span>
                               <br>
-                      <input type="email" id="fromEmail" class="form-control form-control-lg" required>
+                      <input type="email" id="fromEmail" class="form-control form-control-lg" required value=" ">
                     </div>
                     <div class="col-md-3">
                       <span class="details">Phone Number&nbsp;</span>
                               <br>
-                      <input type="text" id="PhoneNumber" class="form-control form-control-lg" required>
+                      <input type="text" id="PhoneNumber" class="form-control form-control-lg" required value=" ">
                     </div>
                   </div>
 
@@ -148,12 +148,12 @@
                     <div class="col-md-3 offset-md-3">
                       <span class="details">Company</span>
                               <br>
-                      <input type="text" id="company" class="form-control form-control-lg" required>
+                      <input type="text" id="company" class="form-control form-control-lg" required value=" ">
                     </div>
                     <div class="col-md-3">
                       <span class="details">Business Type</span>
                               <br>
-                      <input type="text" id="businessType" class="form-control form-control-lg" required>
+                      <input type="text" id="businessType" class="form-control form-control-lg" required value=" ">
                     </div>
                   </div>
 
@@ -166,7 +166,7 @@
                 <div class="col d-flex align-items justify-content-center">
                     <div class="text-container">
                         <label class="details" for="form4Example3">Message</label>
-                        <textarea class="form-control textarea-text" id="form4Example3" rows="8"></textarea>
+                        <textarea class="form-control textarea-text" id="form4Example3" rows="8" required value=" "></textarea>
                     </div>
                 </div>
                 <!-- <div class="row">
@@ -175,37 +175,18 @@
                     <div class="col-md-3 offset-md-3">
                         <button class="contact-send-button btn btn-lg rounded-pill" type="button">submit</button>
                     </div>
-                </div> -->
+                </div> 
+            onclick='sendMail()' data-bs-toggle="modal" data-bs-target="#contact-modal"data-bs-toggle="modal" data-bs-target="#contact-modal"   "-->
                 <div class="col link d-flex align-items justify-content-center">
                     <div class="button-container">
-                        <button class="contact-send-button btn btn-lg rounded-pill" onclick='sendMail()'  type="button" data-bs-toggle="modal" data-bs-target="#contact-modal">submit</button>
+                        <button class="contact-send-button btn btn-lg rounded-pill" id="sendbtn" type="button" onclick="validation()">submit</button>
+                      
+                        <div id="errorMsg"></div>
                     </div>
                 </div>
               </form>
-              <div class="modal fade" id="contact-modal" tabindex="-1" aria-labelledby="contact-modal-label"
-                    aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-md">
-                        <div class="modal-content">
-                            <div class="modal-body">
-                                <p class="title-modal text-center">
-                                    THANK YOU!
-                                </p>
-
-                                <p class="content-modal text-center">
-                                    We've received your message and<br>
-                                    will get back to you as soon as<br>
-                                    possible
-                                    <br>
-                                    <br>
-                                    Thank you for contacting us!
-                                </p>
-                                <div class="footbar-btn">
-                                    <a href="index.html" class="footbar-button btn btn-lg rounded-pill" role="button">back to home</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              
+               
             </div>
         </div>
         </div>
