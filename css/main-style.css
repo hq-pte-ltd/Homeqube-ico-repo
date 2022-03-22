@@ -321,7 +321,7 @@
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 30px;
   letter-spacing: 0.15px;
   text-transform: uppercase;
   color: #d7d7d8;
@@ -2723,7 +2723,7 @@ body {
   text-transform: uppercase;
 }
 
-.faqs-th-position{
+.faqs-th-position {
   text-align: start;
 }
 
@@ -2734,7 +2734,6 @@ body {
   font-size: 18px;
   line-height: 23px;
   align-items: center;
-
 }
 
 .faq-table-content-1 {
@@ -2744,7 +2743,6 @@ body {
   font-size: 18px;
   line-height: 23px;
   align-items: center;
-
 }
 
 .faq-table-bottom-text {
@@ -2755,21 +2753,26 @@ body {
   line-height: 36px;
 }
 
-.faqs-image-1{
+.faqs-image-1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-.dropdown-menu{
+.dropdown-menu {
   background-color: #2f2f2f;
   text-align: center;
 }
-.dropdown-item{
+.dropdown-item {
   color: #fff;
 }
 .people-title {
   font-family: Rajdhani;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 32px;
+}
+.title-modal {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 32px;
