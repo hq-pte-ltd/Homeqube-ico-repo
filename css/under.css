@@ -19,19 +19,20 @@ text-transform: uppercase;
 color: #ffffff;
 padding-top: 5em !important;
 }
-.text2{
+.text5{
 font-family: 'Rajdhani';
 font-style: normal;
-font-weight: 700;
+
 font-size: 20px;
 line-height: 26px;
 color: #ffffff;
 padding-top: .5em;
+width: 50%;
 }
 .rectangle{
     background-color: #ffffff;
-    width: 400px;
-    height: 4px;
+    width: 600px;
+    height: 3px;
 }
 
 .container-fluid{
@@ -92,9 +93,10 @@ color: #ffffff !important;
         padding-top: 0 !important;
         text-align: center;
     }
-    .text2{
+    .text5{
         padding-top: 0 !important;
         text-align: center;
+        width: 100%;
     }
     .rectangle{
         

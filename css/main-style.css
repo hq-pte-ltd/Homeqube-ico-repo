@@ -2790,3 +2790,7 @@ body {
   font-weight: 700;
   font-size: 32px;
 }
+.people-card-title-name{
+    font-weight: 700;
+    font-size: 1.2em;
+}
