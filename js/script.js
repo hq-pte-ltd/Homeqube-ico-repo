@@ -86,6 +86,7 @@ function validation(){
 
         if(email && firstname && message1 && lastname && company && businessType && PhoneNumber){
             sendMail();
+            showModal();
         }else{
             showModal1();
         }
@@ -104,7 +105,6 @@ function sendMail(params){
         emailjs.send('service_mwyk9pu','template_stpx0a8',tempParams)
         .then(function(res){
         console.log("success",res.status);
-        showModal();
         })
     
     
