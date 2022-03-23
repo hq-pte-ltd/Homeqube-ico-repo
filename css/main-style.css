@@ -598,8 +598,8 @@ footer {
 .intro-eco-sentence {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 18px;
+  line-height: 23px;
   text-align: left;
   color: #000000;
 }
@@ -1282,8 +1282,8 @@ footer {
 .intro-sentence-homeapp {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 18px;
+  line-height: 23px;
   text-align: left;
   color: #000000;
 }
@@ -1341,8 +1341,10 @@ footer {
   font-style: normal;
   font-weight: normal;
   text-justify: inter-word;
-  font-size: 14px;
-  line-height: 18px;
+  /* font-size: 14px;
+  line-height: 18px; */
+  font-size: 18px;
+  line-height: 23px;
   color: #000000;
 }
 .pipe-card {
@@ -1940,10 +1942,14 @@ footer {
 .accordion-button {
   font-style: normal;
   color: #5a5a5a;
+  font-size: 18px;
+  line-height: 23px;
 }
 .accordion-text {
   font-style: normal;
   color: #5a5a5a;
+  font-size: 18px;
+  line-height: 23px;
 }
 /* Media  by Jade*/
 @media (max-width: 360px) {
@@ -2552,7 +2558,9 @@ footer {
 .pipeline-links {
   font-style: normal;
   font-weight: bold;
-  font-size: 17px;
+  /* font-size: 17px;
+  line-height: 23px; */
+  font-size: 18px;
   line-height: 23px;
   color: #5a5a5a;
   padding-left: 2px;
