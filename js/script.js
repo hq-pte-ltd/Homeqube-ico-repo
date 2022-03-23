@@ -52,7 +52,7 @@ const showModal1 = () => {
                     Looks like there's a box that hasn't be fill.
                 </p>
                 <div class="footbar-btn">
-                    <a href="index.html" class="footbar-button btn btn-lg rounded-pill" role="button">back to home</a>
+                    <a href="contact.html" class="footbar-button btn btn-lg rounded-pill" role="button">confirm</a>
                 </div>
             </div>
         </div>
