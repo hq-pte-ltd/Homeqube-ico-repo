@@ -2,6 +2,15 @@
 * {
   font-family: "Rajdhani", sans-serif;
 }
+
+.a-pipe {
+    color: #000;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+.a-pipe:hover{
+  color: #000;
+}
 .a-link {
   color: rgb(215, 215, 216) !important;
   text-decoration: none;
