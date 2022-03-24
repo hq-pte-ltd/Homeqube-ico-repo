@@ -2669,13 +2669,13 @@ body {
 }
 @media (min-width: 1200px) {
   .footer-text-2 {
-    padding-left: 21px;
+    padding-left: 15px;
     text-align: left;
   }
 }
 @media (min-width: 1400px) {
   .footer-text-2 {
-    padding-left: 21px;
+    padding-left: 15px;
     text-align: left;
   }
 }
