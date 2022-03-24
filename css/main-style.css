@@ -4,11 +4,11 @@
 }
 
 .a-pipe {
-    color: #000;
-    text-decoration: underline;
-    font-weight: bold;
-  }
-.a-pipe:hover{
+  color: #000;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.a-pipe:hover {
   color: #000;
 }
 .a-link {
@@ -638,6 +638,17 @@ footer {
   text-align: left;
   color: #5a5a5a;
 }
+.our-difference {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+}
+.card-body-child {
+  position: absolute;
+}
+
 @media (min-width: 310px) {
   .intro-eco-2 {
     margin-left: none;
@@ -2807,9 +2818,9 @@ body {
   font-weight: 700;
   font-size: 32px;
 }
-.people-card-title-name{
-    font-weight: 700;
-    font-size: 1.2em;
+.people-card-title-name {
+  font-weight: 700;
+  font-size: 1.2em;
 }
 /* @media (max-width: 768px) {
   .q-tokenomics-bg-icon-2{
