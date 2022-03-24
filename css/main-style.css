@@ -2811,11 +2811,63 @@ body {
     font-weight: 700;
     font-size: 1.2em;
 }
-/* @media (max-width: 768px) {
-  .q-tokenomics-bg-icon-2{
-
+@media (min-width: 310px) {
+  .showcase-intro-lead-carbon{
+    font-size: 1em;
+    line-height: 1.25em;
   }
-  .q-tokenomics-bg-icon-3{
-    
+  .intro-sentence-homeapp{
+    font-size: 1em;
+    line-height: 1.25em;
   }
-} */
+  .intro-eco-sentence{
+    font-size: 1em;
+    line-height: 1.25em;
+    width: 100% !important;
+  }
+  .showcase-intro-lead{
+    font-size: 1em;
+    line-height: 1.25em;
+  }
+  .q-tokenomics-showcase-intro-lead {
+    font-size: 1em;
+    line-height: 1.25em;
+  }
+  .people-title1 {
+    font-size: 1em;
+  }
+  .accordion-text{
+    font-size: 1em;
+    line-height: 1.25em;
+  }
+}
+@media (min-width: 768px) {
+  .showcase-intro-lead-carbon{
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .intro-sentence-homeapp{
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .intro-eco-sentence{
+    font-size: 18px;
+    line-height: 23px;
+    width: 50% !important;
+  }
+  .showcase-intro-lead{
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .q-tokenomics-showcase-intro-lead {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .people-title1 {
+    font-size: 23px;
+  }
+  .accordion-text{
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
