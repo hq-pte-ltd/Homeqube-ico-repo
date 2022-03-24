@@ -1,6 +1,7 @@
 /* fix design  */
 * {
   font-family: "Rajdhani", sans-serif;
+  
 }
 
 .a-pipe {
@@ -2717,6 +2718,7 @@ body {
   }
 }
 .button-contact {
+  visibility: hidden;
   position: fixed;
   height: 60px;
   bottom: 60px;
@@ -2909,3 +2911,6 @@ body {
     min-height: 30vh;
   }
 }
+
+
+
