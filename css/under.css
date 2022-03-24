@@ -1,131 +1,123 @@
-body{
-
-    background-image: url('../img/One-Pager/landingpage.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat, no-repeat; 
-    height: 100vh;
-   /* background-color: #ffffff !important; */
+body {
+  background-image: url("../img/One-Pager/landingpage.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat, no-repeat;
+  height: 100vh;
+  /* background-color: #ffffff !important; */
 }
 
-.text3{
-font-family: 'Rajdhani', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 51px;
+.text3 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 51px;
 
-text-transform: uppercase;
+  text-transform: uppercase;
 
-color: #ffffff;
-padding-top: 5em !important;
+  color: #ffffff;
+  padding-top: 3em !important;
 }
-.text5{
-font-family: 'Rajdhani';
-font-style: normal;
+.text5 {
+  font-family: "Rajdhani";
+  font-style: normal;
 
-font-size: 20px;
-line-height: 26px;
-color: #ffffff;
-padding-top: .5em;
-width: 50%;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+  padding-top: 0.5em;
+  width: 50%;
 }
-.rectangle{
-    background-color: #ffffff;
-    width: 600px;
-    height: 3px;
-}
-
-.container-fluid{
-    padding-left: 10em !important;
-    padding-top: 5em!important;
-}
-.footbar-button-home1{
-background: linear-gradient(44.73deg, #7c7c7c 11.32%, #4e4e4e 92.96%);
-box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 40px;
-width: 300px;
-height: 50px;
-font-family: "Rajdhani", sans-serif;
-font-style: normal;
-font-weight: 700 !important;
-font-size: 24px;
-line-height: 24px;
-letter-spacing: 0.15px;
-text-transform: uppercase;
-text-align: center;
-
-color: #ffffff !important;
-
+.rectangle {
+  background-color: #ffffff;
+  width: 600px;
+  height: 3px;
 }
 
-.footbar-btn-5{
-    text-align: left !important;
+.container-fluid {
+  padding-left: 10em !important;
+  padding-top: 5em !important;
 }
-.row{
-    padding-top: 0 !important;
-    padding-left: 3em !important;
+.footbar-button-home1 {
+  background: linear-gradient(44.73deg, #7c7c7c 11.32%, #4e4e4e 92.96%);
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  width: 300px;
+  height: 50px;
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: #ffffff !important;
 }
-.img{
-    padding-top: 16em !important;
-    padding-right: 5em !important;
-    padding-bottom: 5em !important;
-   
+
+.footbar-btn-5 {
+  text-align: left !important;
+}
+.row {
+  padding-top: 0 !important;
+  padding-left: 3em !important;
+}
+.img {
+  padding-top: 16em !important;
+  padding-right: 5em !important;
+  padding-bottom: 5em !important;
 }
 @media only screen and (max-width: 1200px) and (min-width: 200px) {
-    .row{
-        flex-direction: column !important;
-        justify-content: center;
-        align-items: center;
-        padding-top: 3em !important;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-        padding-bottom: 0 !important;
-    }
+  .row {
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3em !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 0 !important;
+  }
 
-    .img{
-        padding-top: 0 !important;
-        padding-left: 0 !important;
-        padding-bottom: 0 !important;
-        padding-right: 0 !important;
-        width: 100%;
-    }
-    .text3{
-        padding-top: 0 !important;
-        text-align: center;
-    }
-    .text5{
-        padding-top: 0 !important;
-        text-align: center;
-        width: 100%;
-        font-size: 1em;
-    }
-    .rectangle{
-        
-        display: none;
-    }
-    .container-fluid{
-        justify-content: center;
-    }
-    .footbar-btn-5{
-        justify-content: center !important;
-        margin: 0 auto !important;
-        text-align: center !important;
-    }
-    .section-titles{
-        padding-top: 3em !important ;
-    }
-    
+  .img {
+    padding-top: 0 !important;
+    padding-left: 0 !important;
+    padding-bottom: 0 !important;
+    padding-right: 0 !important;
+    width: 100%;
+  }
+  .text3 {
+    padding-top: 0 !important;
+    text-align: center;
+  }
+  .text5 {
+    padding-top: 0 !important;
+    text-align: center;
+    width: 100%;
+    font-size: 1em;
+  }
+  .rectangle {
+    display: none;
+  }
+  .container-fluid {
+    justify-content: center;
+  }
+  .footbar-btn-5 {
+    justify-content: center !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+  }
+  .section-titles {
+    padding-top: 3em !important ;
+  }
 }
 
-@media only screen and (max-width: 425px){
-   
+@media only screen and (max-width: 425px) {
 }
 
-.img-under{
-    width: 10% !important;
-    position: absolute;
-    right: 0;
-    bottom: 0;
+.img-under {
+  width: 10% !important;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
-
-

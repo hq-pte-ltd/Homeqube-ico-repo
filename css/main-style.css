@@ -2669,13 +2669,13 @@ body {
 }
 @media (min-width: 1200px) {
   .footer-text-2 {
-    padding-left: 77px;
+    padding-left: 21px;
     text-align: left;
   }
 }
 @media (min-width: 1400px) {
   .footer-text-2 {
-    padding-left: 77px;
+    padding-left: 21px;
     text-align: left;
   }
 }
@@ -2823,20 +2823,20 @@ body {
   font-size: 1.2em;
 }
 @media (min-width: 310px) {
-  .showcase-intro-lead-carbon{
+  .showcase-intro-lead-carbon {
     font-size: 1em;
     line-height: 1.25em;
   }
-  .intro-sentence-homeapp{
+  .intro-sentence-homeapp {
     font-size: 1em;
     line-height: 1.25em;
   }
-  .intro-eco-sentence{
+  .intro-eco-sentence {
     font-size: 1em;
     line-height: 1.25em;
     width: 100% !important;
   }
-  .showcase-intro-lead{
+  .showcase-intro-lead {
     font-size: 1em;
     line-height: 1.25em;
   }
@@ -2847,26 +2847,26 @@ body {
   .people-title1 {
     font-size: 1em;
   }
-  .accordion-text{
+  .accordion-text {
     font-size: 1em;
     line-height: 1.25em;
   }
 }
 @media (min-width: 768px) {
-  .showcase-intro-lead-carbon{
+  .showcase-intro-lead-carbon {
     font-size: 18px;
     line-height: 23px;
   }
-  .intro-sentence-homeapp{
+  .intro-sentence-homeapp {
     font-size: 18px;
     line-height: 23px;
   }
-  .intro-eco-sentence{
+  .intro-eco-sentence {
     font-size: 18px;
     line-height: 23px;
     width: 50% !important;
   }
-  .showcase-intro-lead{
+  .showcase-intro-lead {
     font-size: 18px;
     line-height: 23px;
   }
@@ -2877,35 +2877,35 @@ body {
   .people-title1 {
     font-size: 23px;
   }
-  .accordion-text{
+  .accordion-text {
     font-size: 18px;
     line-height: 23px;
   }
 }
-.wrap-img-esg1{
-  background-image: url('../img/ESG/Graphic\ Break\ 1.jpg');
+.wrap-img-esg1 {
+  background-image: url("../img/ESG/Graphic\ Break\ 1.jpg");
   min-height: 50vh;
- 
+
   width: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat, no-repeat;
 }
-.wrap-img-esg2{
-  background-image: url('../img/ESG/Graphic\ Break\ 2.jpg');
+.wrap-img-esg2 {
+  background-image: url("../img/ESG/Graphic\ Break\ 2.jpg");
   min-height: 50vh;
   width: 100%;
- 
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat, no-repeat;
 }
 
 @media only screen and (max-width: 900px) and (min-width: 200px) {
-  .wrap-img-esg1{
+  .wrap-img-esg1 {
     min-height: 30vh;
   }
-  .wrap-img-esg2{
+  .wrap-img-esg2 {
     min-height: 30vh;
   }
 }
