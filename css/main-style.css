@@ -2882,3 +2882,30 @@ body {
     line-height: 23px;
   }
 }
+.wrap-img-esg1{
+  background-image: url('../img/ESG/Graphic\ Break\ 1.jpg');
+  min-height: 50vh;
+ 
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat, no-repeat;
+}
+.wrap-img-esg2{
+  background-image: url('../img/ESG/Graphic\ Break\ 2.jpg');
+  min-height: 50vh;
+  width: 100%;
+ 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat, no-repeat;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 200px) {
+  .wrap-img-esg1{
+    min-height: 30vh;
+  }
+  .wrap-img-esg2{
+    min-height: 30vh;
+  }
+}
