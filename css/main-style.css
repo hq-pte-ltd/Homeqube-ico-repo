@@ -1,7 +1,6 @@
 /* fix design  */
 * {
   font-family: "Rajdhani", sans-serif;
-  
 }
 
 .a-pipe {
@@ -539,8 +538,8 @@ footer {
 .card-text {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 12px;
+  line-height: 14px;
   color: #303030;
   text-align: left;
 }
@@ -2911,6 +2910,3 @@ body {
     min-height: 30vh;
   }
 }
-
-
-
