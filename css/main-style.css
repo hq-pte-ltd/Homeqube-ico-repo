@@ -609,6 +609,7 @@ footer {
   column-gap: 10px;
   justify-content: first baseline;
 }
+
 .eco-button {
   background: #fff;
   border-radius: 40px;
@@ -623,6 +624,23 @@ footer {
   text-transform: uppercase;
   color: #000000;
 }
+
+.eco-button1 {
+  background: #fff;
+  border-radius: 40px;
+  width: 130px;
+  height: 50px;
+ padding-top: 15px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
 .content-eco1-bg {
   background-color: #fff;
   padding-top: 75px !important;
@@ -2903,6 +2921,12 @@ body {
   background-repeat: no-repeat, no-repeat;
 }
 
+.news-imgPR {
+  margin-top: 20px;
+}
+
+
+
 @media only screen and (max-width: 900px) and (min-width: 200px) {
   .wrap-img-esg1 {
     min-height: 30vh;
@@ -2910,6 +2934,11 @@ body {
   .wrap-img-esg2 {
     min-height: 30vh;
   }
+
+  .news-imgPR {
+    height: 30vh;
+  }
+
 }
 
 
