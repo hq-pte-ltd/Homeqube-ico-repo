@@ -1956,6 +1956,14 @@ footer {
   font-weight: 700;
   font-size: 32px;
 }
+
+.faq-title1 {
+  font-family: Rajdhani;
+ 
+  font-weight: 700;
+  font-size: 32px;
+}
+
 .faqs-container {
   background-color: #f8f8f8;
 }
