@@ -144,6 +144,7 @@
   width: 100px;
   height: 100px;
 }
+
 .button1 {
   background: linear-gradient(44.73deg, #7c7c7c 11.32%, #4e4e4e 92.96%);
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -2933,6 +2934,22 @@ body {
   margin-top: 20px;
 }
 
+.blog-image
+{
+ height: 80vh;
+ width: 80%;
+ 
+}
+
+.blog-link
+{
+  color: #5a5a5a;
+  font-weight: normal;
+}
+
+.blog-link:hover {
+  color: #5a5a5a;
+}
 
 
 @media only screen and (max-width: 900px) and (min-width: 200px) {
@@ -2946,6 +2963,13 @@ body {
   .news-imgPR {
     height: 30vh;
   }
+
+  .blog-image
+{
+ height: 30vh;
+
+ 
+}
 
 }
 
