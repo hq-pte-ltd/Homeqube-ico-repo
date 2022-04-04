@@ -1939,11 +1939,18 @@ footer {
 .carbon-benefits-content-head{
   color: #5a5a5a;
   font-weight: bold;
-  padding-top: 20px;
   text-align: left;
   font-size: 1.25em;
 }
 .carbon-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #5a5a5a;
+  text-align: left;
+}
+.carbon-text-blog {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
