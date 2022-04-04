@@ -1936,6 +1936,13 @@ footer {
   padding-top: 20px;
   text-align: left;
 }
+.carbon-benefits-content-head{
+  color: #5a5a5a;
+  font-weight: bold;
+  padding-top: 20px;
+  text-align: left;
+  font-size: 1.25em;
+}
 .carbon-text {
   font-style: normal;
   font-weight: normal;
@@ -2940,6 +2947,13 @@ body {
  
 }
 
+.blog-image1{
+  width: 50%;
+  height: auto;
+}
+.img-breaker{
+  width: 100%;
+}
 .blog-link
 {
   color: #5a5a5a;
@@ -2966,6 +2980,13 @@ body {
   .blog-image
 {
  height: 30vh;
+
+ 
+}
+
+.blog-image1
+{
+ width: 100%;
 
  
 }
