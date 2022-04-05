@@ -1942,6 +1942,8 @@ footer {
   text-align: left;
   font-size: 1.25em;
 }
+
+
 .carbon-text {
   font-style: normal;
   font-weight: normal;
@@ -1950,6 +1952,10 @@ footer {
   color: #5a5a5a;
   text-align: left;
 }
+
+
+
+
 .carbon-text-blog {
   font-style: normal;
   font-weight: normal;
@@ -2818,6 +2824,18 @@ body {
   line-height: 23px;
   align-items: center;
 }
+
+
+
+.faq-table-content-1-2 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+}
+
 
 .faq-table-content-1 {
   font-family: "Rajdhani", sans-serif;
