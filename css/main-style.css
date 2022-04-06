@@ -93,6 +93,7 @@
   text-transform: uppercase;
   text-decoration: none;
   color: #d7d7d8;
+
 }
 .nav-item-FAQ {
   left: 75.17%;
@@ -156,6 +157,22 @@
 .logo {
   width: 100px;
   height: 100px;
+}
+
+
+.aboutlink
+{
+  background-color: #2f2f2f;
+  color: #d7d7d8 ;
+  border-style: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 8px;
+}
+
+.reslink
+{
+  padding: 8px;
 }
 
 .button1 {
